@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2013\Projects\bdqn.T115学校管理系统\Common\bin\Debug\Common.dll
+c:\users\administrator\documents\visual studio 2013\Projects\bdqn.T115学校管理系统\Common\bin\Debug\Common.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\bdqn.T115学校管理系统\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\bdqn.T115学校管理系统\Common\obj\Debug\Common.dll
+c:\users\administrator\documents\visual studio 2013\Projects\bdqn.T115学校管理系统\Common\obj\Debug\Common.pdb

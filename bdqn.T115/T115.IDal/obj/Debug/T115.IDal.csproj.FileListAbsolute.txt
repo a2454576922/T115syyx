@@ -1,0 +1,20 @@
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IDal\bin\Debug\T115.IDal.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IDal\bin\Debug\T115.IDal.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IDal\bin\Debug\dbqn.T115OA.Model.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IDal\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IDal\bin\Debug\dbqn.T115OA.Model.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IDal\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IDal\obj\Debug\T115.IDal.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IDal\obj\Debug\T115.IDal.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IDal\obj\Debug\T115.IDal.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IDal\bin\Debug\T115.IDal.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IDal\bin\Debug\T115.IDal.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IDal\bin\Debug\dbqn.T115OA.Model.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IDal\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IDal\bin\Debug\dbqn.T115OA.Model.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IDal\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IDal\obj\Debug\T115.IDal.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IDal\obj\Debug\T115.IDal.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IDal\obj\Debug\T115.IDal.pdb

@@ -1,0 +1,34 @@
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\T115.Factory.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\T115.Factory.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\T115.Common.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\T115.DalFactory.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\T115.IDal.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\log4net.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\dbqn.T115OA.Model.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\T115.Common.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\T115.DalFactory.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\T115.IDal.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\dbqn.T115OA.Model.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\obj\Debug\T115.Factory.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\obj\Debug\T115.Factory.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.Factory\obj\Debug\T115.Factory.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\T115.Factory.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\T115.Factory.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\T115.Common.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\T115.DalFactory.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\T115.IDal.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\dbqn.T115OA.Model.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\T115.Common.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\T115.DalFactory.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\T115.IDal.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\dbqn.T115OA.Model.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\obj\Debug\T115.Factory.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\obj\Debug\T115.Factory.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.Factory\obj\Debug\T115.Factory.pdb

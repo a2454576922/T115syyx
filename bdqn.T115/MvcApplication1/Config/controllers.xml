@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <!--控制器对象-->
+  <object type="bdqn.webApp.Controllers.UserController, bdqn.webApp" singleton="false" >
+    <property name="ubll" ref="UserBll" />
+    <property name="abll" ref="ActionBll" />
+    <property name="mbll" ref="MenuBll" />
+    <!--<property name="dabll" ref="DepartmentActionBll" />-->
+  </object>
+  <object type="bdqn.webApp.Controllers.MenuController, bdqn.webApp" singleton="false" >
+    <property name="mBll" ref="MenuBll" />
+  </object>
+  
+  <!--<object type="bdqn.webApp.Controllers.HomeController, bdqn.webApp" singleton="false" >
+    <property name="ubll" ref="UserBll" />
+  </object>-->
+
+
+</objects>

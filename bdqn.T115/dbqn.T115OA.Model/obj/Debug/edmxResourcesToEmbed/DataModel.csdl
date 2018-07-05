@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="DataModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="DataModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ActionInfo" EntityType="DataModel.ActionInfo" />
+    <EntitySet Name="Department" EntityType="DataModel.Department" />
+    <AssociationSet Name="DepartmentActionInfo" Association="DataModel.DepartmentActionInfo">
+      <End Role="Department" EntitySet="Department" />
+      <End Role="ActionInfo" EntitySet="ActionInfo" />
+    </AssociationSet>
+    <EntitySet Name="Role" EntityType="DataModel.Role" />
+    <AssociationSet Name="RoleActionInfo" Association="DataModel.RoleActionInfo">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="ActionInfo" EntitySet="ActionInfo" />
+    </AssociationSet>
+    <EntitySet Name="MenuInfo" EntityType="DataModel.MenuInfo" />
+    <AssociationSet Name="MenuInfoActionInfo" Association="DataModel.MenuInfoActionInfo">
+      <End Role="MenuInfo" EntitySet="MenuInfo" />
+      <End Role="ActionInfo" EntitySet="ActionInfo" />
+    </AssociationSet>
+    <EntitySet Name="User" EntityType="DataModel.User" />
+    <AssociationSet Name="UserRole" Association="DataModel.UserRole">
+      <End Role="User" EntitySet="User" />
+      <End Role="Role" EntitySet="Role" />
+    </AssociationSet>
+    <AssociationSet Name="UserActionInfo" Association="DataModel.UserActionInfo">
+      <End Role="User" EntitySet="User" />
+      <End Role="ActionInfo" EntitySet="ActionInfo" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ActionInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ActionName" Type="String" Nullable="false" />
+    <Property Name="Url" Type="String" Nullable="false" />
+    <Property Name="HttpMeThod" Type="String" Nullable="false" />
+    <Property Name="Remark" Type="String" Nullable="true" />
+    <Property Name="SubTime" Type="DateTime" Nullable="false" />
+    <Property Name="SubBy" Type="Int32" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Department" Relationship="DataModel.DepartmentActionInfo" FromRole="ActionInfo" ToRole="Department" />
+    <NavigationProperty Name="Role" Relationship="DataModel.RoleActionInfo" FromRole="ActionInfo" ToRole="Role" />
+    <NavigationProperty Name="MenuInfo" Relationship="DataModel.MenuInfoActionInfo" FromRole="ActionInfo" ToRole="MenuInfo" />
+    <NavigationProperty Name="User" Relationship="DataModel.UserActionInfo" FromRole="ActionInfo" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DepartmentName" Type="String" Nullable="false" />
+    <Property Name="ParentId" Type="Int32" Nullable="false" />
+    <Property Name="TreePath" Type="String" Nullable="false" />
+    <Property Name="Level" Type="Int32" Nullable="false" />
+    <Property Name="IsLeat" Type="Int32" Nullable="false" />
+    <Property Name="Remark" Type="String" Nullable="true" />
+    <Property Name="SubTime" Type="DateTime" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <Property Name="SubBy" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ActionInfo" Relationship="DataModel.DepartmentActionInfo" FromRole="Department" ToRole="ActionInfo" />
+  </EntityType>
+  <Association Name="DepartmentActionInfo">
+    <End Type="DataModel.Department" Role="Department" Multiplicity="*" />
+    <End Type="DataModel.ActionInfo" Role="ActionInfo" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" Nullable="false" />
+    <Property Name="Remark" Type="String" Nullable="true" />
+    <Property Name="SubTime" Type="DateTime" Nullable="false" />
+    <Property Name="SubBy" Type="Int32" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ActionInfo" Relationship="DataModel.RoleActionInfo" FromRole="Role" ToRole="ActionInfo" />
+    <NavigationProperty Name="User" Relationship="DataModel.UserRole" FromRole="Role" ToRole="User" />
+  </EntityType>
+  <Association Name="RoleActionInfo">
+    <End Type="DataModel.Role" Role="Role" Multiplicity="*" />
+    <End Type="DataModel.ActionInfo" Role="ActionInfo" Multiplicity="*" />
+  </Association>
+  <EntityType Name="MenuInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MenuName" Type="String" Nullable="false" />
+    <Property Name="Icon" Type="String" Nullable="false" />
+    <Property Name="Remark" Type="String" Nullable="true" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <Property Name="SubBy" Type="Int32" Nullable="false" />
+    <Property Name="SubTime" Type="DateTime" Nullable="false" />
+    <Property Name="ActionInfoId" Type="Int32" Nullable="false" />
+    <Property Name="Level" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ActionInfo" Relationship="DataModel.MenuInfoActionInfo" FromRole="MenuInfo" ToRole="ActionInfo" />
+  </EntityType>
+  <Association Name="MenuInfoActionInfo">
+    <End Type="DataModel.MenuInfo" Role="MenuInfo" Multiplicity="*" />
+    <End Type="DataModel.ActionInfo" Role="ActionInfo" Multiplicity="*" />
+  </Association>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" />
+    <Property Name="Mail" Type="String" Nullable="false" />
+    <Property Name="Telphone" Type="String" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <Property Name="SubBy" Type="Int32" Nullable="false" />
+    <Property Name="SubTime" Type="DateTime" Nullable="false" />
+    <Property Name="Remark" Type="String" Nullable="true" />
+    <Property Name="DepartmentId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Role" Relationship="DataModel.UserRole" FromRole="User" ToRole="Role" />
+    <NavigationProperty Name="ActionInfo" Relationship="DataModel.UserActionInfo" FromRole="User" ToRole="ActionInfo" />
+  </EntityType>
+  <Association Name="UserRole">
+    <End Type="DataModel.User" Role="User" Multiplicity="*" />
+    <End Type="DataModel.Role" Role="Role" Multiplicity="*" />
+  </Association>
+  <Association Name="UserActionInfo">
+    <End Type="DataModel.User" Role="User" Multiplicity="*" />
+    <End Type="DataModel.ActionInfo" Role="ActionInfo" Multiplicity="*" />
+  </Association>
+</Schema>
