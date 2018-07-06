@@ -4,341 +4,7 @@
     Layout = null;
 }
 
-@*<!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Add</title>
-</head>
-<body>
-    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
-    <script src="~/Scripts/jquery.validate.min.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
-    
-    @using (Html.BeginForm()) {
-        @Html.AntiForgeryToken()
-        @Html.ValidationSummary(true)
-    
-        <fieldset>
-            <legend>StudentFile</legend>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.payId)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.payId)
-                @Html.ValidationMessageFor(model => model.payId)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.ClassManagementId)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.ClassManagementId)
-                @Html.ValidationMessageFor(model => model.ClassManagementId)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.educationId)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.educationId)
-                @Html.ValidationMessageFor(model => model.educationId)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Registrationtime)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Registrationtime)
-                @Html.ValidationMessageFor(model => model.Registrationtime)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Name)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Name)
-                @Html.ValidationMessageFor(model => model.Name)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Namepinyin)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Namepinyin)
-                @Html.ValidationMessageFor(model => model.Namepinyin)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Sex)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Sex)
-                @Html.ValidationMessageFor(model => model.Sex)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Dateofbirth)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Dateofbirth)
-                @Html.ValidationMessageFor(model => model.Dateofbirth)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Nation)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Nation)
-                @Html.ValidationMessageFor(model => model.Nation)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.IDnumber)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.IDnumber)
-                @Html.ValidationMessageFor(model => model.IDnumber)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.IDaddress)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.IDaddress)
-                @Html.ValidationMessageFor(model => model.IDaddress)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.XAddress)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.XAddress)
-                @Html.ValidationMessageFor(model => model.XAddress)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.ISaccommodation)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.ISaccommodation)
-                @Html.ValidationMessageFor(model => model.ISaccommodation)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.PhoNumber)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.PhoNumber)
-                @Html.ValidationMessageFor(model => model.PhoNumber)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Sourcesofcost)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Sourcesofcost)
-                @Html.ValidationMessageFor(model => model.Sourcesofcost)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.QQ)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.QQ)
-                @Html.ValidationMessageFor(model => model.QQ)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Guardianname)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Guardianname)
-                @Html.ValidationMessageFor(model => model.Guardianname)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.GuardianPhone)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.GuardianPhone)
-                @Html.ValidationMessageFor(model => model.GuardianPhone)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Wechat)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Wechat)
-                @Html.ValidationMessageFor(model => model.Wechat)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Interest)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Interest)
-                @Html.ValidationMessageFor(model => model.Interest)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Speciality)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Speciality)
-                @Html.ValidationMessageFor(model => model.Speciality)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.OWEP)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.OWEP)
-                @Html.ValidationMessageFor(model => model.OWEP)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Other)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Other)
-                @Html.ValidationMessageFor(model => model.Other)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Programming)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Programming)
-                @Html.ValidationMessageFor(model => model.Programming)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Intrnet)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Intrnet)
-                @Html.ValidationMessageFor(model => model.Intrnet)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.correation)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.correation)
-                @Html.ValidationMessageFor(model => model.correation)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.operation)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.operation)
-                @Html.ValidationMessageFor(model => model.operation)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.Readingstate)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.Readingstate)
-                @Html.ValidationMessageFor(model => model.Readingstate)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.manage)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.manage)
-                @Html.ValidationMessageFor(model => model.manage)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.school)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.school)
-                @Html.ValidationMessageFor(model => model.school)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.inclass)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.inclass)
-                @Html.ValidationMessageFor(model => model.inclass)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.TimeGroad)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.TimeGroad)
-                @Html.ValidationMessageFor(model => model.TimeGroad)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.recommend)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.recommend)
-                @Html.ValidationMessageFor(model => model.recommend)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.remark)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.remark)
-                @Html.ValidationMessageFor(model => model.remark)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.DelFlag)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.DelFlag)
-                @Html.ValidationMessageFor(model => model.DelFlag)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.SubBy)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.SubBy)
-                @Html.ValidationMessageFor(model => model.SubBy)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.subTiem)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.subTiem)
-                @Html.ValidationMessageFor(model => model.subTiem)
-            </div>
-    
-            <div class="editor-label">
-                @Html.LabelFor(model => model.entranceState)
-            </div>
-            <div class="editor-field">
-                @Html.EditorFor(model => model.entranceState)
-                @Html.ValidationMessageFor(model => model.entranceState)
-            </div>
-    
-            <p>
-                <input type="submit" value="Create" />
-            </p>
-        </fieldset>
-    }
-    
-    <div>
-        @Html.ActionLink("Back to List", "Index")
-    </div>
-</body>
-</html>*@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -349,13 +15,19 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" href="../../layui/css/layui.css" media="all" />
+    <link rel="stylesheet" href="../../layui/css/layui.css" media="all">
     <style type="text/css">
 		.layui-form-item .layui-inline{ width:33.333%; float:left; margin-right:0; }
-
+		
     </style>
+    <link id="layuicss-skinlayercss" rel="stylesheet" href="file:///C:/Users/Administrator/Desktop/%E5%B8%82%E5%9C%BA%E9%83%A8%E5%90%8E%E5%A4%A9%E7%AE%A1%E7%90%86%E6%A8%A1%E7%89%88/layui/css/modules/layer/default/layer.css?v=3.0.3303" media="all">
 </head>
 <body class="childrenBody">
+    <blockquote class="layui-elem-quote news_search" style="text-align:center">
+        <div class="layui-inline">
+            <p class="search_btn" style="font-size:26px;">学员新增</p>
+        </div>
+    </blockquote>
     <form class="layui-form" style="width:80%;">
         <div class="layui-form-item">
             <label class="layui-form-label">姓名</label>
@@ -373,17 +45,30 @@
             <div class="layui-inline">
                 <label class="layui-form-label">性别</label>
                 <div class="layui-input-block userSex">
-                    <input type="radio" name="sex" value="男" title="男" checked>
-                    <input type="radio" name="sex" value="女" title="女">
+                    <input type="radio" name="sex" value="男" title="男" checked=""><div class="layui-unselect layui-form-radio layui-form-radioed"><i class="layui-anim layui-icon"></i><span>男</span></div>
+                    <input type="radio" name="sex" value="女" title="女"><div class="layui-unselect layui-form-radio"><i class="layui-anim layui-icon"></i><span>女</span></div>
                 </div>
             </div>
             <div class="layui-inline">
                 <label class="layui-form-label">学员状态</label>
                 <div class="layui-input-block">
                     <select name="userStatus" class="userStatus" lay-filter="userStatus">
-                        <option value="1">未报名
+                        <option value="1">
+                            未报名
+                        </option>
                         <option value="0">报名</option>
-                    </select>
+                    </select><div class="layui-unselect layui-form-select">
+                        <div class="layui-select-title">
+                            <input type="text" placeholder="未报名
+						" value="未报名
+						" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i>
+                        </div><dl class="layui-anim layui-anim-upbit">
+                            <dd lay-value="1" class="layui-this">
+                                未报名
+                            </dd>
+                            <dd lay-value="0" class="">报名</dd>
+                        </dl>
+                    </div>
                 </div>
             </div>
         </div>
@@ -403,7 +88,7 @@
                         <option value="1">初中</option>
                         <option value="2">高中</option>
                         <option value="3">大学</option>
-                    </select>
+                    </select><div class="layui-unselect layui-form-select"><div class="layui-select-title"><input type="text" placeholder="其他" value="其他" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i></div><dl class="layui-anim layui-anim-upbit"><dd lay-value="-1" class="layui-this">其他</dd><dd lay-value="0" class="">小学</dd><dd lay-value="1" class="">初中</dd><dd lay-value="2" class="">高中</dd><dd lay-value="3" class="">大学</dd></dl></div>
                 </div>
             </div>
             <div class="layui-inline">
@@ -477,7 +162,7 @@
                         <option value="-1">其他</option>
                         <option value="0">走读</option>
                         <option value="1">住宿</option>
-                    </select>
+                    </select><div class="layui-unselect layui-form-select"><div class="layui-select-title"><input type="text" placeholder="其他" value="其他" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i></div><dl class="layui-anim layui-anim-upbit"><dd lay-value="-1" class="layui-this">其他</dd><dd lay-value="0" class="">走读</dd><dd lay-value="1" class="">住宿</dd></dl></div>
                 </div>
             </div>
         </div>
@@ -524,7 +209,7 @@
                         <option value="一般">一般</option>
                         <option value="了解">了解</option>
                         <option value="不了解">不了解</option>
-                    </select>
+                    </select><div class="layui-unselect layui-form-select"><div class="layui-select-title"><input type="text" placeholder="无" value="无" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i></div><dl class="layui-anim layui-anim-upbit"><dd lay-value="无" class="layui-this">无</dd><dd lay-value="一般" class="">一般</dd><dd lay-value="了解" class="">了解</dd><dd lay-value="不了解" class="">不了解</dd></dl></div>
                 </div>
             </div>
             <div class="layui-inline">
@@ -535,7 +220,7 @@
                         <option value="一般">一般</option>
                         <option value="了解">了解</option>
                         <option value="不了解">不了解</option>
-                    </select>
+                    </select><div class="layui-unselect layui-form-select"><div class="layui-select-title"><input type="text" placeholder="无" value="无" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i></div><dl class="layui-anim layui-anim-upbit"><dd lay-value="无" class="layui-this">无</dd><dd lay-value="一般" class="">一般</dd><dd lay-value="了解" class="">了解</dd><dd lay-value="不了解" class="">不了解</dd></dl></div>
                 </div>
             </div>
             <div class="layui-inline">
@@ -546,7 +231,7 @@
                         <option value="有">有</option>
                         <option value="没有">没有</option>
                         <option value="一点点">一点点</option>
-                    </select>
+                    </select><div class="layui-unselect layui-form-select"><div class="layui-select-title"><input type="text" placeholder="无" value="无" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i></div><dl class="layui-anim layui-anim-upbit"><dd lay-value="无" class="layui-this">无</dd><dd lay-value="有" class="">有</dd><dd lay-value="没有" class="">没有</dd><dd lay-value="一点点" class="">一点点</dd></dl></div>
                 </div>
             </div>
         </div>
@@ -558,7 +243,7 @@
                         <option value="无">无</option>
                         <option value="一般">一般</option>
                         <option value="了解">了解</option>
-                    </select>
+                    </select><div class="layui-unselect layui-form-select"><div class="layui-select-title"><input type="text" placeholder="无" value="无" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i></div><dl class="layui-anim layui-anim-upbit"><dd lay-value="无" class="layui-this">无</dd><dd lay-value="一般" class="">一般</dd><dd lay-value="了解" class="">了解</dd></dl></div>
                 </div>
             </div>
             <div class="layui-inline">
@@ -567,7 +252,7 @@
                     <select name="userStatus" class="userStatus" lay-filter="userStatus">
                         <option value="是">是</option>
                         <option value="否">否</option>
-                    </select>
+                    </select><div class="layui-unselect layui-form-select"><div class="layui-select-title"><input type="text" placeholder="是" value="是" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i></div><dl class="layui-anim layui-anim-upbit"><dd lay-value="是" class="layui-this">是</dd><dd lay-value="否" class="">否</dd></dl></div>
                 </div>
             </div>
             <div class="layui-inline">
@@ -576,7 +261,7 @@
                     <select name="userStatus" class="userStatus" lay-filter="userStatus">
                         <option value="是">是</option>
                         <option value="否">否</option>
-                    </select>
+                    </select><div class="layui-unselect layui-form-select"><div class="layui-select-title"><input type="text" placeholder="是" value="是" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i></div><dl class="layui-anim layui-anim-upbit"><dd lay-value="是" class="layui-this">是</dd><dd lay-value="否" class="">否</dd></dl></div>
                 </div>
             </div>
         </div>
@@ -588,7 +273,7 @@
                         <option value="无">无</option>
                         <option value="一般">一般</option>
                         <option value="了解">了解</option>
-                    </select>
+                    </select><div class="layui-unselect layui-form-select"><div class="layui-select-title"><input type="text" placeholder="无" value="无" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i></div><dl class="layui-anim layui-anim-upbit"><dd lay-value="无" class="layui-this">无</dd><dd lay-value="一般" class="">一般</dd><dd lay-value="了解" class="">了解</dd></dl></div>
                 </div>
             </div>
             <div class="layui-inline">
@@ -597,7 +282,7 @@
                     <select name="userStatus" class="userStatus" lay-filter="userStatus">
                         <option value="是">是</option>
                         <option value="否">否</option>
-                    </select>
+                    </select><div class="layui-unselect layui-form-select"><div class="layui-select-title"><input type="text" placeholder="是" value="是" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i></div><dl class="layui-anim layui-anim-upbit"><dd lay-value="是" class="layui-this">是</dd><dd lay-value="否" class="">否</dd></dl></div>
                 </div>
             </div>
             <div class="layui-inline">
@@ -606,7 +291,7 @@
                     <select name="userStatus" class="userStatus" lay-filter="userStatus">
                         <option value="是">是</option>
                         <option value="否">否</option>
-                    </select>
+                    </select><div class="layui-unselect layui-form-select"><div class="layui-select-title"><input type="text" placeholder="是" value="是" readonly="" class="layui-input layui-unselect"><i class="layui-edge"></i></div><dl class="layui-anim layui-anim-upbit"><dd lay-value="是" class="layui-this">是</dd><dd lay-value="否" class="">否</dd></dl></div>
                 </div>
             </div>
         </div>
@@ -645,5 +330,6 @@
     </form>
     <script type="text/javascript" src="../../layui/layui.js"></script>
     <script type="text/javascript" src="addUser.js"></script>
+
 </body>
 </html>

@@ -22,3 +22,4 @@ F:\Y2项目\T115syyx\bdqn.T115\dbqn.T115OA.Model\bin\Debug\EntityFramework.xml
 F:\Y2项目\T115syyx\bdqn.T115\dbqn.T115OA.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
 F:\Y2项目\T115syyx\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.dll
 F:\Y2项目\T115syyx\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.pdb
+F:\Y2项目\T115syyx\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.csprojResolveAssemblyReference.cache

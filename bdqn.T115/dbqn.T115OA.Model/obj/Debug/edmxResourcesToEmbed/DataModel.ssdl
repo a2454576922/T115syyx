@@ -13,6 +13,10 @@
     <EntitySet Name="Source" EntityType="DataModel.Store.Source" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Student" EntityType="DataModel.Store.Student" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="ClassManagement" EntityType="DataModel.Store.ClassManagement" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Result" EntityType="DataModel.Store.Result" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ResultInfo" EntityType="DataModel.Store.ResultInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Subject" EntityType="DataModel.Store.Subject" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Grade" EntityType="DataModel.Store.Grade" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="DepartmentActionInfo" EntityType="DataModel.Store.DepartmentActionInfo" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="RoleActionInfo" EntityType="DataModel.Store.RoleActionInfo" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="MenuInfoActionInfo" EntityType="DataModel.Store.MenuInfoActionInfo" store:Type="Tables" Schema="dbo" />
@@ -85,6 +89,18 @@
     <AssociationSet Name="ConsultDepartment" Association="DataModel.Store.ConsultDepartment">
       <End Role="Consult" EntitySet="Consult" />
       <End Role="Department" EntitySet="Department" />
+    </AssociationSet>
+    <AssociationSet Name="GradeSubject" Association="DataModel.Store.GradeSubject">
+      <End Role="Grade" EntitySet="Grade" />
+      <End Role="Subject" EntitySet="Subject" />
+    </AssociationSet>
+    <AssociationSet Name="SubjectResultInfo" Association="DataModel.Store.SubjectResultInfo">
+      <End Role="Subject" EntitySet="Subject" />
+      <End Role="ResultInfo" EntitySet="ResultInfo" />
+    </AssociationSet>
+    <AssociationSet Name="StudentFileResultInfo" Association="DataModel.Store.StudentFileResultInfo">
+      <End Role="StudentFile" EntitySet="Student" />
+      <End Role="ResultInfo" EntitySet="ResultInfo" />
     </AssociationSet>
   </EntityContainer>
   <EntityType Name="ActionInfo">
@@ -268,6 +284,38 @@
     <Property Name="DelFlag" Type="int" Nullable="false" />
     <Property Name="remark" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
+  <EntityType Name="Result">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ResultInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentResult" Type="int" Nullable="false" />
+    <Property Name="subTiem" Type="datetime" Nullable="false" />
+    <Property Name="SubjectId" Type="int" Nullable="false" />
+    <Property Name="StudentFileId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubjectName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ClassHour" Type="int" Nullable="false" />
+    <Property Name="GradeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Grade">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GradeName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
   <EntityType Name="DepartmentActionInfo">
     <Key>
       <PropertyRef Name="Department_Id" />
@@ -389,6 +437,42 @@
       </Principal>
       <Dependent Role="Consult">
         <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GradeSubject">
+    <End Role="Grade" Type="DataModel.Store.Grade" Multiplicity="1" />
+    <End Role="Subject" Type="DataModel.Store.Subject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grade">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subject">
+        <PropertyRef Name="GradeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SubjectResultInfo">
+    <End Role="Subject" Type="DataModel.Store.Subject" Multiplicity="1" />
+    <End Role="ResultInfo" Type="DataModel.Store.ResultInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ResultInfo">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentFileResultInfo">
+    <End Role="StudentFile" Type="DataModel.Store.Student" Multiplicity="1" />
+    <End Role="ResultInfo" Type="DataModel.Store.ResultInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StudentFile">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ResultInfo">
+        <PropertyRef Name="StudentFileId" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

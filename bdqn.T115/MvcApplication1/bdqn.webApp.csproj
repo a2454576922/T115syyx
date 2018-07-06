@@ -253,6 +253,7 @@
     <Content Include="js\leftNav.js" />
     <Content Include="js\main.js" />
     <Content Include="js\nav.js" />
+    <Content Include="layui\address.js" />
     <Content Include="layui\css\layui.css" />
     <Content Include="layui\css\layui.mobile.css" />
     <Content Include="layui\css\modules\code.css" />
@@ -431,6 +432,8 @@
     <Content Include="Views\Studentarchives\Index.cshtml" />
     <Content Include="Views\ResultInfo\Index.cshtml" />
     <Content Include="Views\ActionInfo\Index.cshtml" />
+    <Content Include="Views\Studentarchives\Add.cshtml" />
+    <Content Include="Views\Studentarchives\Update.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
