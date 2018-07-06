@@ -17,6 +17,7 @@ namespace dbqn.T115OA.Model
         public StudentFile()
         {
             this.Family = new HashSet<Family>();
+            this.ResultInfo = new HashSet<ResultInfo>();
         }
     
         public int Id { get; set; }
@@ -63,5 +64,6 @@ namespace dbqn.T115OA.Model
         public virtual pay pay { get; set; }
         public virtual ClassManagement ClassManagement { get; set; }
         public virtual education education { get; set; }
+        public virtual ICollection<ResultInfo> ResultInfo { get; set; }
     }
 }

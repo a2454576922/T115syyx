@@ -29,6 +29,15 @@
         <AssociationConnector Association="DataModel.ClassManagementStudent" />
         <AssociationConnector Association="DataModel.educationStudent" />
         <AssociationConnector Association="DataModel.ConsultDepartment" />
+        <EntityTypeShape EntityType="DataModel.ResultInfo" Width="1.5" PointX="10.625" PointY="11" />
+        <EntityTypeShape EntityType="DataModel.Subject" Width="1.5" PointX="10.375" PointY="14" />
+        <EntityTypeShape EntityType="DataModel.Grade" Width="1.5" PointX="10.375" PointY="17" />
+        <AssociationConnector Association="DataModel.GradeSubject" />
+        <AssociationConnector Association="DataModel.SubjectResultInfo" />
+        <AssociationConnector Association="DataModel.StudentFileResultInfo" />
+      </Diagram>
+      <Diagram DiagramId="bc2bc7430384407d96bcac1a3896b716" Name="Diagram2" >
+        <EntityTypeShape EntityType="DataModel.Result" Width="1.5" PointX="0.75" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

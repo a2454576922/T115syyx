@@ -37,5 +37,9 @@ namespace dbqn.T115OA.Model
         public DbSet<Source> Source { get; set; }
         public DbSet<StudentFile> Student { get; set; }
         public DbSet<ClassManagement> ClassManagement { get; set; }
+        public DbSet<Result> Result { get; set; }
+        public DbSet<ResultInfo> ResultInfo { get; set; }
+        public DbSet<Subject> Subject { get; set; }
+        public DbSet<Grade> Grade { get; set; }
     }
 }
