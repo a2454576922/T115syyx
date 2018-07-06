@@ -13,7 +13,7 @@ namespace bdqn.webApp.Controllers
 
         public ActionResult Index()
         {
-            int u = 1;
+            
             return View();
         }
 
