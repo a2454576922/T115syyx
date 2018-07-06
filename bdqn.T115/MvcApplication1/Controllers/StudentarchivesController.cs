@@ -16,5 +16,27 @@ namespace bdqn.webApp.Controllers
             return View();
         }
 
+        public ActionResult Add()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Add()
+        {
+            return View();
+        }
+
+        public ActionResult Update()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Update()
+        {
+            return View();
+        }
+
     }
 }
