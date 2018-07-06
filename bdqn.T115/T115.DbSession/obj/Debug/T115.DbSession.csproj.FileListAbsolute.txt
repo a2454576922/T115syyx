@@ -61,6 +61,7 @@ F:\Y2项目\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\EntityFramework.xml
 F:\Y2项目\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.Common.pdb
 F:\Y2项目\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\dbqn.T115OA.Model.pdb
 F:\Y2项目\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\zh-Hans\EntityFramework.resources.dll
+<<<<<<< HEAD
 E:\最终项目\T115syyx\bdqn.T115\T115.DbSession\obj\Debug\T115.DbSession.csprojResolveAssemblyReference.cache
 E:\最终项目\T115syyx\bdqn.T115\T115.DbSession\obj\Debug\T115.DbSession.dll
 E:\最终项目\T115syyx\bdqn.T115\T115.DbSession\obj\Debug\T115.DbSession.pdb
@@ -82,3 +83,26 @@ E:\最终项目\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\EntityFramework.xml
 E:\最终项目\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.Common.pdb
 E:\最终项目\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\dbqn.T115OA.Model.pdb
 E:\最终项目\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\zh-Hans\EntityFramework.resources.dll
+=======
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.DbSession.dll
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.DbSession.pdb
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\EntityFramework.dll
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.DalFactory.dll
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.DbContextFactory.dll
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.IDal.dll
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.IDbSession.dll
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.Common.dll
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\dbqn.T115OA.Model.dll
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\log4net.dll
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.DalFactory.pdb
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.DbContextFactory.pdb
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.IDal.pdb
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.IDbSession.pdb
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\EntityFramework.xml
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\T115.Common.pdb
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\dbqn.T115OA.Model.pdb
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\obj\Debug\T115.DbSession.csprojResolveAssemblyReference.cache
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\obj\Debug\T115.DbSession.dll
+E:\115C#\T115syyx\bdqn.T115\T115.DbSession\obj\Debug\T115.DbSession.pdb
+>>>>>>> origin/master

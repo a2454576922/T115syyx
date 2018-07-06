@@ -28,6 +28,7 @@ F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\bin\Debug\zh-Hans\EntityFramework.resou
 F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.csprojResolveAssemblyReference.cache
 F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.dll
 F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.pdb
+<<<<<<< HEAD
 E:\最终项目\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.csprojResolveAssemblyReference.cache
 E:\最终项目\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.dll
 E:\最终项目\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.pdb
@@ -38,3 +39,15 @@ E:\最终项目\T115syyx\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.dll
 E:\最终项目\T115syyx\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.pdb
 E:\最终项目\T115syyx\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.xml
 E:\最终项目\T115syyx\bdqn.T115\T115.IBll\bin\Debug\zh-Hans\EntityFramework.resources.dll
+=======
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.dll
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.pdb
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.dll
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.dll
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.pdb
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.xml
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.csprojResolveAssemblyReference.cache
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.dll
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.pdb
+>>>>>>> origin/master
