@@ -52,6 +52,13 @@ namespace T115.Bll
             this.currentDal = this.DbSession.FamilyDal;
         }
     }	
+	public partial class GradeBll : BaseBll<Grade>,IGradeBll
+    {
+        public override void SetCurrentDal()
+        {
+            this.currentDal = this.DbSession.GradeDal;
+        }
+    }	
 	public partial class MenuInfoBll : BaseBll<MenuInfo>,IMenuInfoBll
     {
         public override void SetCurrentDal()
@@ -64,6 +71,20 @@ namespace T115.Bll
         public override void SetCurrentDal()
         {
             this.currentDal = this.DbSession.payDal;
+        }
+    }	
+	public partial class ResultBll : BaseBll<Result>,IResultBll
+    {
+        public override void SetCurrentDal()
+        {
+            this.currentDal = this.DbSession.ResultDal;
+        }
+    }	
+	public partial class ResultInfoBll : BaseBll<ResultInfo>,IResultInfoBll
+    {
+        public override void SetCurrentDal()
+        {
+            this.currentDal = this.DbSession.ResultInfoDal;
         }
     }	
 	public partial class RoleBll : BaseBll<Role>,IRoleBll
@@ -85,6 +106,13 @@ namespace T115.Bll
         public override void SetCurrentDal()
         {
             this.currentDal = this.DbSession.StudentFileDal;
+        }
+    }	
+	public partial class SubjectBll : BaseBll<Subject>,ISubjectBll
+    {
+        public override void SetCurrentDal()
+        {
+            this.currentDal = this.DbSession.SubjectDal;
         }
     }	
 	public partial class UserBll : BaseBll<User>,IUserBll

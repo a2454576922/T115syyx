@@ -34,11 +34,23 @@ namespace T115.EFDal
     {
        
     }	
+	public partial class GradeDal : BaseDal<Grade>,IGradeDal
+    {
+       
+    }	
 	public partial class MenuInfoDal : BaseDal<MenuInfo>,IMenuInfoDal
     {
        
     }	
 	public partial class payDal : BaseDal<pay>,IpayDal
+    {
+       
+    }	
+	public partial class ResultDal : BaseDal<Result>,IResultDal
+    {
+       
+    }	
+	public partial class ResultInfoDal : BaseDal<ResultInfo>,IResultInfoDal
     {
        
     }	
@@ -51,6 +63,10 @@ namespace T115.EFDal
        
     }	
 	public partial class StudentFileDal : BaseDal<StudentFile>,IStudentFileDal
+    {
+       
+    }	
+	public partial class SubjectDal : BaseDal<Subject>,ISubjectDal
     {
        
     }	

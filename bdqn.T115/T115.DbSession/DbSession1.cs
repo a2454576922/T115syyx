@@ -63,6 +63,14 @@ namespace T115.DbSession
             }
         }
 
+		public  IGradeDal GradeDal
+        {
+            get
+            {
+                return DalFactory.AbsFactory.CreateInstance().CreateGradeDal();
+            }
+        }
+
 		public  IMenuInfoDal MenuInfoDal
         {
             get
@@ -76,6 +84,22 @@ namespace T115.DbSession
             get
             {
                 return DalFactory.AbsFactory.CreateInstance().CreatepayDal();
+            }
+        }
+
+		public  IResultDal ResultDal
+        {
+            get
+            {
+                return DalFactory.AbsFactory.CreateInstance().CreateResultDal();
+            }
+        }
+
+		public  IResultInfoDal ResultInfoDal
+        {
+            get
+            {
+                return DalFactory.AbsFactory.CreateInstance().CreateResultInfoDal();
             }
         }
 
@@ -100,6 +124,14 @@ namespace T115.DbSession
             get
             {
                 return DalFactory.AbsFactory.CreateInstance().CreateStudentFileDal();
+            }
+        }
+
+		public  ISubjectDal SubjectDal
+        {
+            get
+            {
+                return DalFactory.AbsFactory.CreateInstance().CreateSubjectDal();
             }
         }
 

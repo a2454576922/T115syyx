@@ -34,11 +34,23 @@ namespace T115.IBll
     {
        
     }	
+	public partial interface IGradeBll :IBaseBll<Grade>
+    {
+       
+    }	
 	public partial interface IMenuInfoBll :IBaseBll<MenuInfo>
     {
        
     }	
 	public partial interface IpayBll :IBaseBll<pay>
+    {
+       
+    }	
+	public partial interface IResultBll :IBaseBll<Result>
+    {
+       
+    }	
+	public partial interface IResultInfoBll :IBaseBll<ResultInfo>
     {
        
     }	
@@ -51,6 +63,10 @@ namespace T115.IBll
        
     }	
 	public partial interface IStudentFileBll :IBaseBll<StudentFile>
+    {
+       
+    }	
+	public partial interface ISubjectBll :IBaseBll<Subject>
     {
        
     }	

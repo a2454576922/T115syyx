@@ -33,11 +33,23 @@ namespace T115.IDal
     {
        
     }	
+	public partial interface IGradeDal :IBaseDal<Grade>
+    {
+       
+    }	
 	public partial interface IMenuInfoDal :IBaseDal<MenuInfo>
     {
        
     }	
 	public partial interface IpayDal :IBaseDal<pay>
+    {
+       
+    }	
+	public partial interface IResultDal :IBaseDal<Result>
+    {
+       
+    }	
+	public partial interface IResultInfoDal :IBaseDal<ResultInfo>
     {
        
     }	
@@ -50,6 +62,10 @@ namespace T115.IDal
        
     }	
 	public partial interface IStudentFileDal :IBaseDal<StudentFile>
+    {
+       
+    }	
+	public partial interface ISubjectDal :IBaseDal<Subject>
     {
        
     }	

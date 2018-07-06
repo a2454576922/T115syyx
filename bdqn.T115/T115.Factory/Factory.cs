@@ -45,6 +45,11 @@ namespace T115.Factory
             string nspace = Kits.GetAppSettingsValue("dalFactory");
             return (IFamilyDal)Kits.CreateObj(nspace, "FamilyDal");
         }
+		public override IGradeDal CreateGradeDal()
+        {
+            string nspace = Kits.GetAppSettingsValue("dalFactory");
+            return (IGradeDal)Kits.CreateObj(nspace, "GradeDal");
+        }
 		public override IMenuInfoDal CreateMenuInfoDal()
         {
             string nspace = Kits.GetAppSettingsValue("dalFactory");
@@ -54,6 +59,16 @@ namespace T115.Factory
         {
             string nspace = Kits.GetAppSettingsValue("dalFactory");
             return (IpayDal)Kits.CreateObj(nspace, "payDal");
+        }
+		public override IResultDal CreateResultDal()
+        {
+            string nspace = Kits.GetAppSettingsValue("dalFactory");
+            return (IResultDal)Kits.CreateObj(nspace, "ResultDal");
+        }
+		public override IResultInfoDal CreateResultInfoDal()
+        {
+            string nspace = Kits.GetAppSettingsValue("dalFactory");
+            return (IResultInfoDal)Kits.CreateObj(nspace, "ResultInfoDal");
         }
 		public override IRoleDal CreateRoleDal()
         {
@@ -69,6 +84,11 @@ namespace T115.Factory
         {
             string nspace = Kits.GetAppSettingsValue("dalFactory");
             return (IStudentFileDal)Kits.CreateObj(nspace, "StudentFileDal");
+        }
+		public override ISubjectDal CreateSubjectDal()
+        {
+            string nspace = Kits.GetAppSettingsValue("dalFactory");
+            return (ISubjectDal)Kits.CreateObj(nspace, "SubjectDal");
         }
 		public override IUserDal CreateUserDal()
         {
