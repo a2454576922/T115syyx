@@ -17,6 +17,7 @@ namespace dbqn.T115OA.Model
         public Department()
         {
             this.ActionInfo = new HashSet<ActionInfo>();
+            this.Consult = new HashSet<Consult>();
         }
     
         public int Id { get; set; }
@@ -31,5 +32,6 @@ namespace dbqn.T115OA.Model
         public int SubBy { get; set; }
     
         public virtual ICollection<ActionInfo> ActionInfo { get; set; }
+        public virtual ICollection<Consult> Consult { get; set; }
     }
 }

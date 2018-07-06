@@ -14,7 +14,23 @@ namespace T115.EFDal
     {
        
     }	
+	public partial class ClassManagementDal : BaseDal<ClassManagement>,IClassManagementDal
+    {
+       
+    }	
+	public partial class ConsultDal : BaseDal<Consult>,IConsultDal
+    {
+       
+    }	
 	public partial class DepartmentDal : BaseDal<Department>,IDepartmentDal
+    {
+       
+    }	
+	public partial class educationDal : BaseDal<education>,IeducationDal
+    {
+       
+    }	
+	public partial class FamilyDal : BaseDal<Family>,IFamilyDal
     {
        
     }	
@@ -22,7 +38,19 @@ namespace T115.EFDal
     {
        
     }	
+	public partial class payDal : BaseDal<pay>,IpayDal
+    {
+       
+    }	
 	public partial class RoleDal : BaseDal<Role>,IRoleDal
+    {
+       
+    }	
+	public partial class SourceDal : BaseDal<Source>,ISourceDal
+    {
+       
+    }	
+	public partial class StudentFileDal : BaseDal<StudentFile>,IStudentFileDal
     {
        
     }	

@@ -23,11 +23,43 @@ namespace T115.DbSession
             }
         }
 
+		public  IClassManagementDal ClassManagementDal
+        {
+            get
+            {
+                return DalFactory.AbsFactory.CreateInstance().CreateClassManagementDal();
+            }
+        }
+
+		public  IConsultDal ConsultDal
+        {
+            get
+            {
+                return DalFactory.AbsFactory.CreateInstance().CreateConsultDal();
+            }
+        }
+
 		public  IDepartmentDal DepartmentDal
         {
             get
             {
                 return DalFactory.AbsFactory.CreateInstance().CreateDepartmentDal();
+            }
+        }
+
+		public  IeducationDal educationDal
+        {
+            get
+            {
+                return DalFactory.AbsFactory.CreateInstance().CreateeducationDal();
+            }
+        }
+
+		public  IFamilyDal FamilyDal
+        {
+            get
+            {
+                return DalFactory.AbsFactory.CreateInstance().CreateFamilyDal();
             }
         }
 
@@ -39,11 +71,35 @@ namespace T115.DbSession
             }
         }
 
+		public  IpayDal payDal
+        {
+            get
+            {
+                return DalFactory.AbsFactory.CreateInstance().CreatepayDal();
+            }
+        }
+
 		public  IRoleDal RoleDal
         {
             get
             {
                 return DalFactory.AbsFactory.CreateInstance().CreateRoleDal();
+            }
+        }
+
+		public  ISourceDal SourceDal
+        {
+            get
+            {
+                return DalFactory.AbsFactory.CreateInstance().CreateSourceDal();
+            }
+        }
+
+		public  IStudentFileDal StudentFileDal
+        {
+            get
+            {
+                return DalFactory.AbsFactory.CreateInstance().CreateStudentFileDal();
             }
         }
 

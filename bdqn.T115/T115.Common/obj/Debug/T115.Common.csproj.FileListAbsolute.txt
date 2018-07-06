@@ -8,3 +8,8 @@ C:\Users\Administrator\Desktop\bdqn.T115\T115.Common\bin\Debug\T115.Common.pdb
 C:\Users\Administrator\Desktop\bdqn.T115\T115.Common\bin\Debug\log4net.dll
 C:\Users\Administrator\Desktop\bdqn.T115\T115.Common\obj\Debug\T115.Common.dll
 C:\Users\Administrator\Desktop\bdqn.T115\T115.Common\obj\Debug\T115.Common.pdb
+F:\Y2项目\T115syyx\bdqn.T115\T115.Common\bin\Debug\T115.Common.dll
+F:\Y2项目\T115syyx\bdqn.T115\T115.Common\bin\Debug\T115.Common.pdb
+F:\Y2项目\T115syyx\bdqn.T115\T115.Common\bin\Debug\log4net.dll
+F:\Y2项目\T115syyx\bdqn.T115\T115.Common\obj\Debug\T115.Common.dll
+F:\Y2项目\T115syyx\bdqn.T115\T115.Common\obj\Debug\T115.Common.pdb

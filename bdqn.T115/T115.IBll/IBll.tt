@@ -27,7 +27,7 @@ using System.Text;
 namespace T115.IBll
 {
 
-	using Model;
+	 using dbqn.T115OA.Model;
 <#
 // Emit Entity Types
 

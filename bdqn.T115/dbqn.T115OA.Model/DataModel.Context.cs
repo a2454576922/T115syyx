@@ -30,5 +30,12 @@ namespace dbqn.T115OA.Model
         public DbSet<Role> Role { get; set; }
         public DbSet<MenuInfo> MenuInfo { get; set; }
         public DbSet<User> User { get; set; }
+        public DbSet<Consult> Consult { get; set; }
+        public DbSet<education> education { get; set; }
+        public DbSet<Family> Family { get; set; }
+        public DbSet<pay> pay { get; set; }
+        public DbSet<Source> Source { get; set; }
+        public DbSet<StudentFile> Student { get; set; }
+        public DbSet<ClassManagement> ClassManagement { get; set; }
     }
 }

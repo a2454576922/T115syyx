@@ -9,8 +9,16 @@ using System.Text;
 namespace T115.IBll
 {
 
-	using dbqn.T115OA.Model;
+	 using dbqn.T115OA.Model;
 	public partial interface IActionInfoBll :IBaseBll<ActionInfo>
+    {
+       
+    }	
+	public partial interface IClassManagementBll :IBaseBll<ClassManagement>
+    {
+       
+    }	
+	public partial interface IConsultBll :IBaseBll<Consult>
     {
        
     }	
@@ -18,11 +26,31 @@ namespace T115.IBll
     {
        
     }	
+	public partial interface IeducationBll :IBaseBll<education>
+    {
+       
+    }	
+	public partial interface IFamilyBll :IBaseBll<Family>
+    {
+       
+    }	
 	public partial interface IMenuInfoBll :IBaseBll<MenuInfo>
     {
        
     }	
+	public partial interface IpayBll :IBaseBll<pay>
+    {
+       
+    }	
 	public partial interface IRoleBll :IBaseBll<Role>
+    {
+       
+    }	
+	public partial interface ISourceBll :IBaseBll<Source>
+    {
+       
+    }	
+	public partial interface IStudentFileBll :IBaseBll<StudentFile>
     {
        
     }	

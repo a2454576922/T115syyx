@@ -26,8 +26,7 @@ using System.Text;
 
 namespace T115.IDal
 {
-
-	using Models;
+	 using dbqn.T115OA.Model;
 <#
 // Emit Entity Types
 

@@ -20,20 +20,55 @@ namespace T115.Factory
             string nspace = Kits.GetAppSettingsValue("dalFactory");
             return (IActionInfoDal)Kits.CreateObj(nspace, "ActionInfoDal");
         }
+		public override IClassManagementDal CreateClassManagementDal()
+        {
+            string nspace = Kits.GetAppSettingsValue("dalFactory");
+            return (IClassManagementDal)Kits.CreateObj(nspace, "ClassManagementDal");
+        }
+		public override IConsultDal CreateConsultDal()
+        {
+            string nspace = Kits.GetAppSettingsValue("dalFactory");
+            return (IConsultDal)Kits.CreateObj(nspace, "ConsultDal");
+        }
 		public override IDepartmentDal CreateDepartmentDal()
         {
             string nspace = Kits.GetAppSettingsValue("dalFactory");
             return (IDepartmentDal)Kits.CreateObj(nspace, "DepartmentDal");
+        }
+		public override IeducationDal CreateeducationDal()
+        {
+            string nspace = Kits.GetAppSettingsValue("dalFactory");
+            return (IeducationDal)Kits.CreateObj(nspace, "educationDal");
+        }
+		public override IFamilyDal CreateFamilyDal()
+        {
+            string nspace = Kits.GetAppSettingsValue("dalFactory");
+            return (IFamilyDal)Kits.CreateObj(nspace, "FamilyDal");
         }
 		public override IMenuInfoDal CreateMenuInfoDal()
         {
             string nspace = Kits.GetAppSettingsValue("dalFactory");
             return (IMenuInfoDal)Kits.CreateObj(nspace, "MenuInfoDal");
         }
+		public override IpayDal CreatepayDal()
+        {
+            string nspace = Kits.GetAppSettingsValue("dalFactory");
+            return (IpayDal)Kits.CreateObj(nspace, "payDal");
+        }
 		public override IRoleDal CreateRoleDal()
         {
             string nspace = Kits.GetAppSettingsValue("dalFactory");
             return (IRoleDal)Kits.CreateObj(nspace, "RoleDal");
+        }
+		public override ISourceDal CreateSourceDal()
+        {
+            string nspace = Kits.GetAppSettingsValue("dalFactory");
+            return (ISourceDal)Kits.CreateObj(nspace, "SourceDal");
+        }
+		public override IStudentFileDal CreateStudentFileDal()
+        {
+            string nspace = Kits.GetAppSettingsValue("dalFactory");
+            return (IStudentFileDal)Kits.CreateObj(nspace, "StudentFileDal");
         }
 		public override IUserDal CreateUserDal()
         {

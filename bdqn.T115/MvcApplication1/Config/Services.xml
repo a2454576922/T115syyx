@@ -7,5 +7,7 @@
   </object>
   <object name="MenuBll"  type="T115.Bll.MenuInfoBll, T115.Bll">
   </object>
+  <object name="payBll"  type="T115.Bll.payBll, T115.Bll">
+  </object>
  
 </objects>

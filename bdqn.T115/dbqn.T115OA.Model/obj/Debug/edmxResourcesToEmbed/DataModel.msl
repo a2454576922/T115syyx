@@ -74,6 +74,125 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Consult">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.Consult)">
+        <MappingFragment StoreEntitySet="Consult">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SourceId" ColumnName="SourceId" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="DelFlag" ColumnName="DelFlag" />
+          <ScalarProperty Name="SubBy" ColumnName="SubBy" />
+          <ScalarProperty Name="subTiem" ColumnName="subTiem" />
+          <ScalarProperty Name="stuName" ColumnName="stuName" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="major" ColumnName="major" />
+          <ScalarProperty Name="industry" ColumnName="industry" />
+          <ScalarProperty Name="basis" ColumnName="basis" />
+          <ScalarProperty Name="FavoriteIndusery" ColumnName="FavoriteIndusery" />
+          <ScalarProperty Name="FavoriteJob" ColumnName="FavoriteJob" />
+          <ScalarProperty Name="CurrentSchool" ColumnName="CurrentSchool" />
+          <ScalarProperty Name="grade" ColumnName="grade" />
+          <ScalarProperty Name="hope" ColumnName="hope" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="Statedoor" ColumnName="Statedoor" />
+          <ScalarProperty Name="referrer" ColumnName="referrer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="education">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.education)">
+        <MappingFragment StoreEntitySet="education">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Family">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.Family)">
+        <MappingFragment StoreEntitySet="Family">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="relaction" ColumnName="relaction" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pay">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.pay)">
+        <MappingFragment StoreEntitySet="pay">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="payName" ColumnName="payName" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Source">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.Source)">
+        <MappingFragment StoreEntitySet="Source">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SourceName" ColumnName="SourceName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.StudentFile)">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="payId" ColumnName="payId" />
+          <ScalarProperty Name="ClassManagementId" ColumnName="ClassManagementId" />
+          <ScalarProperty Name="educationId" ColumnName="educationId" />
+          <ScalarProperty Name="Registrationtime" ColumnName="Registrationtime" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Namepinyin" ColumnName="Namepinyin" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Dateofbirth" ColumnName="Dateofbirth" />
+          <ScalarProperty Name="Nation" ColumnName="Nation" />
+          <ScalarProperty Name="IDnumber" ColumnName="IDnumber" />
+          <ScalarProperty Name="IDaddress" ColumnName="IDaddress" />
+          <ScalarProperty Name="XAddress" ColumnName="XAddress" />
+          <ScalarProperty Name="ISaccommodation" ColumnName="ISaccommodation" />
+          <ScalarProperty Name="PhoNumber" ColumnName="PhoNumber" />
+          <ScalarProperty Name="Sourcesofcost" ColumnName="Sourcesofcost" />
+          <ScalarProperty Name="QQ" ColumnName="QQ" />
+          <ScalarProperty Name="Guardianname" ColumnName="Guardianname" />
+          <ScalarProperty Name="GuardianPhone" ColumnName="GuardianPhone" />
+          <ScalarProperty Name="Wechat" ColumnName="Wechat" />
+          <ScalarProperty Name="Interest" ColumnName="Interest" />
+          <ScalarProperty Name="Speciality" ColumnName="Speciality" />
+          <ScalarProperty Name="OWEP" ColumnName="OWEP" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="Programming" ColumnName="Programming" />
+          <ScalarProperty Name="Intrnet" ColumnName="Intrnet" />
+          <ScalarProperty Name="correation" ColumnName="correation" />
+          <ScalarProperty Name="operation" ColumnName="operation" />
+          <ScalarProperty Name="Readingstate" ColumnName="Readingstate" />
+          <ScalarProperty Name="manage" ColumnName="manage" />
+          <ScalarProperty Name="school" ColumnName="school" />
+          <ScalarProperty Name="inclass" ColumnName="inclass" />
+          <ScalarProperty Name="TimeGroad" ColumnName="TimeGroad" />
+          <ScalarProperty Name="recommend" ColumnName="recommend" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="DelFlag" ColumnName="DelFlag" />
+          <ScalarProperty Name="SubBy" ColumnName="SubBy" />
+          <ScalarProperty Name="subTiem" ColumnName="subTiem" />
+          <ScalarProperty Name="entranceState" ColumnName="entranceState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassManagement">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.ClassManagement)">
+        <MappingFragment StoreEntitySet="ClassManagement">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+          <ScalarProperty Name="subTiem" ColumnName="subTiem" />
+          <ScalarProperty Name="SubBy" ColumnName="SubBy" />
+          <ScalarProperty Name="DelFlag" ColumnName="DelFlag" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <AssociationSetMapping Name="DepartmentActionInfo" TypeName="DataModel.DepartmentActionInfo" StoreEntitySet="DepartmentActionInfo">
       <EndProperty Name="Department">
         <ScalarProperty Name="Id" ColumnName="Department_Id" />
@@ -112,6 +231,14 @@
       </EndProperty>
       <EndProperty Name="ActionInfo">
         <ScalarProperty Name="Id" ColumnName="ActionInfo_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Consulteducation" TypeName="DataModel.Consulteducation" StoreEntitySet="Consult">
+      <EndProperty Name="education">
+        <ScalarProperty Name="Id" ColumnName="education_Id" />
+      </EndProperty>
+      <EndProperty Name="Consult">
+        <ScalarProperty Name="Id" ColumnName="Id" />
       </EndProperty>
     </AssociationSetMapping>
   </EntityContainerMapping>

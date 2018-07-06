@@ -5,6 +5,7 @@
     <property name="ubll" ref="UserBll" />
     <property name="abll" ref="ActionBll" />
     <property name="mbll" ref="MenuBll" />
+    <property name="pbll" ref="payBll" />
     <!--<property name="dabll" ref="DepartmentActionBll" />-->
   </object>
   <object type="bdqn.webApp.Controllers.MenuController, bdqn.webApp" singleton="false" >

@@ -15,9 +15,16 @@ namespace T115.DalFactory
 	public abstract partial class AbsFactory
     {
 		public abstract IActionInfoDal CreateActionInfoDal();
+		public abstract IClassManagementDal CreateClassManagementDal();
+		public abstract IConsultDal CreateConsultDal();
 		public abstract IDepartmentDal CreateDepartmentDal();
+		public abstract IeducationDal CreateeducationDal();
+		public abstract IFamilyDal CreateFamilyDal();
 		public abstract IMenuInfoDal CreateMenuInfoDal();
+		public abstract IpayDal CreatepayDal();
 		public abstract IRoleDal CreateRoleDal();
+		public abstract ISourceDal CreateSourceDal();
+		public abstract IStudentFileDal CreateStudentFileDal();
 		public abstract IUserDal CreateUserDal();
 	}
 }

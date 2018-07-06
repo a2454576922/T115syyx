@@ -6,11 +6,12 @@ using System.Web.Mvc;
 
 namespace bdqn.webApp.Controllers
 {
+    using dbqn.T115OA.Model;
     using T115.IBll;
     public class UserController : Controller
     {
         public IUserBll ubll { get; set; }
-
+        public IpayBll pBll { get; set; }
         public IMenuInfoBll mbll { get; set; }
         public IActionInfoBll abll { get; set; }
         //
@@ -25,7 +26,7 @@ namespace bdqn.webApp.Controllers
         {
             string userName = Request["UserName"];
             string password = Request["Password"];
-            var user = ubll.LoadEntities(p=>p.UserName == userName && p.Password == password).FirstOrDefault();
+            var user = ubll.LoadEntities(p=>p.UserName==userName && p.Password==password);
             if(user == null){
                 return Content("err");
             }
