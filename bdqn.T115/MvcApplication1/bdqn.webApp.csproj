@@ -427,6 +427,7 @@
     <Content Include="lib\layui-admin.zip" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Studentarchives\Index.cshtml" />
+    <Content Include="Views\Studentarchives\Add.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
