@@ -154,6 +154,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ActionInfoController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ChosultationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -429,6 +430,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Studentarchives\Index.cshtml" />
     <Content Include="Views\ResultInfo\Index.cshtml" />
+    <Content Include="Views\ActionInfo\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
