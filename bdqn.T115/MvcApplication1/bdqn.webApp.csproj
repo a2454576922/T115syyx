@@ -155,6 +155,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ActionInfoController.cs" />
+    <Compile Include="Controllers\AttendInfoController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ChosultationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -251,6 +252,7 @@
     <Content Include="js\bodyTab.js" />
     <Content Include="js\index.js" />
     <Content Include="js\leftNav.js" />
+    <Content Include="js\linksList.js" />
     <Content Include="js\main.js" />
     <Content Include="js\nav.js" />
     <Content Include="layui\css\layui.css" />
@@ -431,6 +433,7 @@
     <Content Include="Views\Studentarchives\Index.cshtml" />
     <Content Include="Views\ResultInfo\Index.cshtml" />
     <Content Include="Views\ActionInfo\Index.cshtml" />
+    <Content Include="Views\AttendInfo\AttendList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

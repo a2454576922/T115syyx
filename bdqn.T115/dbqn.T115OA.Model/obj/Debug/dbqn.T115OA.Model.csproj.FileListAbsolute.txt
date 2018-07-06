@@ -22,3 +22,12 @@ F:\Y2项目\T115syyx\bdqn.T115\dbqn.T115OA.Model\bin\Debug\EntityFramework.xml
 F:\Y2项目\T115syyx\bdqn.T115\dbqn.T115OA.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
 F:\Y2项目\T115syyx\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.dll
 F:\Y2项目\T115syyx\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.pdb
+E:\115C#\T115syyx\bdqn.T115\dbqn.T115OA.Model\bin\Debug\dbqn.T115OA.Model.dll.config
+E:\115C#\T115syyx\bdqn.T115\dbqn.T115OA.Model\bin\Debug\dbqn.T115OA.Model.dll
+E:\115C#\T115syyx\bdqn.T115\dbqn.T115OA.Model\bin\Debug\dbqn.T115OA.Model.pdb
+E:\115C#\T115syyx\bdqn.T115\dbqn.T115OA.Model\bin\Debug\EntityFramework.dll
+E:\115C#\T115syyx\bdqn.T115\dbqn.T115OA.Model\bin\Debug\EntityFramework.xml
+E:\115C#\T115syyx\bdqn.T115\dbqn.T115OA.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\115C#\T115syyx\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.csprojResolveAssemblyReference.cache
+E:\115C#\T115syyx\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.dll
+E:\115C#\T115syyx\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.pdb
