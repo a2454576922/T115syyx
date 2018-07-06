@@ -20,11 +20,15 @@ namespace T115.DalFactory
 		public abstract IDepartmentDal CreateDepartmentDal();
 		public abstract IeducationDal CreateeducationDal();
 		public abstract IFamilyDal CreateFamilyDal();
+		public abstract IGradeDal CreateGradeDal();
 		public abstract IMenuInfoDal CreateMenuInfoDal();
 		public abstract IpayDal CreatepayDal();
+		public abstract IResultDal CreateResultDal();
+		public abstract IResultInfoDal CreateResultInfoDal();
 		public abstract IRoleDal CreateRoleDal();
 		public abstract ISourceDal CreateSourceDal();
 		public abstract IStudentFileDal CreateStudentFileDal();
+		public abstract ISubjectDal CreateSubjectDal();
 		public abstract IUserDal CreateUserDal();
 	}
 }

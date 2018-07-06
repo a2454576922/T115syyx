@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/06/2018 10:21:58
--- Generated from EDMX file: F:\Y2项目\T115syyx\bdqn.T115\dbqn.T115OA.Model\DataModel.edmx
+-- Date Created: 07/06/2018 14:23:58
+-- Generated from EDMX file: D:\最后一个项目\T115syyx\bdqn.T115\dbqn.T115OA.Model\DataModel.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -310,6 +310,38 @@ CREATE TABLE [dbo].[ClassManagement] (
 );
 GO
 
+-- Creating table 'Result'
+CREATE TABLE [dbo].[Result] (
+    [Id] int IDENTITY(1,1) NOT NULL
+);
+GO
+
+-- Creating table 'ResultInfo'
+CREATE TABLE [dbo].[ResultInfo] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [StudentResult] int  NOT NULL,
+    [subTiem] datetime  NOT NULL,
+    [SubjectId] int  NOT NULL,
+    [StudentFileId] int  NOT NULL
+);
+GO
+
+-- Creating table 'Subject'
+CREATE TABLE [dbo].[Subject] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [SubjectName] nvarchar(max)  NOT NULL,
+    [ClassHour] int  NOT NULL,
+    [GradeId] int  NOT NULL
+);
+GO
+
+-- Creating table 'Grade'
+CREATE TABLE [dbo].[Grade] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [GradeName] nvarchar(max)  NOT NULL
+);
+GO
+
 -- Creating table 'DepartmentActionInfo'
 CREATE TABLE [dbo].[DepartmentActionInfo] (
     [Department_Id] int  NOT NULL,
@@ -418,6 +450,30 @@ GO
 -- Creating primary key on [Id] in table 'ClassManagement'
 ALTER TABLE [dbo].[ClassManagement]
 ADD CONSTRAINT [PK_ClassManagement]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Result'
+ALTER TABLE [dbo].[Result]
+ADD CONSTRAINT [PK_Result]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'ResultInfo'
+ALTER TABLE [dbo].[ResultInfo]
+ADD CONSTRAINT [PK_ResultInfo]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Subject'
+ALTER TABLE [dbo].[Subject]
+ADD CONSTRAINT [PK_Subject]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Grade'
+ALTER TABLE [dbo].[Grade]
+ADD CONSTRAINT [PK_Grade]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
@@ -666,6 +722,48 @@ ADD CONSTRAINT [FK_ConsultDepartment]
 CREATE INDEX [IX_FK_ConsultDepartment]
 ON [dbo].[Consult]
     ([DepartmentId]);
+GO
+
+-- Creating foreign key on [GradeId] in table 'Subject'
+ALTER TABLE [dbo].[Subject]
+ADD CONSTRAINT [FK_GradeSubject]
+    FOREIGN KEY ([GradeId])
+    REFERENCES [dbo].[Grade]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_GradeSubject'
+CREATE INDEX [IX_FK_GradeSubject]
+ON [dbo].[Subject]
+    ([GradeId]);
+GO
+
+-- Creating foreign key on [SubjectId] in table 'ResultInfo'
+ALTER TABLE [dbo].[ResultInfo]
+ADD CONSTRAINT [FK_SubjectResultInfo]
+    FOREIGN KEY ([SubjectId])
+    REFERENCES [dbo].[Subject]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_SubjectResultInfo'
+CREATE INDEX [IX_FK_SubjectResultInfo]
+ON [dbo].[ResultInfo]
+    ([SubjectId]);
+GO
+
+-- Creating foreign key on [StudentFileId] in table 'ResultInfo'
+ALTER TABLE [dbo].[ResultInfo]
+ADD CONSTRAINT [FK_StudentFileResultInfo]
+    FOREIGN KEY ([StudentFileId])
+    REFERENCES [dbo].[Student]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_StudentFileResultInfo'
+CREATE INDEX [IX_FK_StudentFileResultInfo]
+ON [dbo].[ResultInfo]
+    ([StudentFileId]);
 GO
 
 -- --------------------------------------------------

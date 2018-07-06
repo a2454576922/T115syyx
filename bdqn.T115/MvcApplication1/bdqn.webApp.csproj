@@ -158,6 +158,7 @@
     <Compile Include="Controllers\ChosultationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\ResultInfoController.cs" />
     <Compile Include="Controllers\StudentarchivesController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
@@ -427,7 +428,11 @@
     <Content Include="lib\layui-admin.zip" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Studentarchives\Index.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Studentarchives\Add.cshtml" />
+=======
+    <Content Include="Views\ResultInfo\Index.cshtml" />
+>>>>>>> origin/master
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -9,7 +9,7 @@ using System.Text;
 namespace T115.IDbSession
 {
 
-    using T115.IDal;
+    using IDal;
 	
     public partial interface IDbSession
     {
@@ -25,15 +25,23 @@ namespace T115.IDbSession
 
 		IFamilyDal FamilyDal { get; }
 
+		IGradeDal GradeDal { get; }
+
 		IMenuInfoDal MenuInfoDal { get; }
 
 		IpayDal payDal { get; }
+
+		IResultDal ResultDal { get; }
+
+		IResultInfoDal ResultInfoDal { get; }
 
 		IRoleDal RoleDal { get; }
 
 		ISourceDal SourceDal { get; }
 
 		IStudentFileDal StudentFileDal { get; }
+
+		ISubjectDal SubjectDal { get; }
 
 		IUserDal UserDal { get; }
 
