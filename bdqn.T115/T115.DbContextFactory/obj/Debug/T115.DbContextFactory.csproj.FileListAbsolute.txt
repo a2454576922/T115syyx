@@ -28,3 +28,13 @@ F:\Y2项目\T115syyx\bdqn.T115\T115.DbContextFactory\bin\Debug\zh-Hans\EntityFra
 F:\Y2项目\T115syyx\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.csprojResolveAssemblyReference.cache
 F:\Y2项目\T115syyx\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.dll
 F:\Y2项目\T115syyx\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.pdb
+E:\最终项目\T115syyx\bdqn.T115\T115.DbContextFactory\bin\Debug\T115.DbContextFactory.dll
+E:\最终项目\T115syyx\bdqn.T115\T115.DbContextFactory\bin\Debug\T115.DbContextFactory.pdb
+E:\最终项目\T115syyx\bdqn.T115\T115.DbContextFactory\bin\Debug\dbqn.T115OA.Model.dll
+E:\最终项目\T115syyx\bdqn.T115\T115.DbContextFactory\bin\Debug\EntityFramework.dll
+E:\最终项目\T115syyx\bdqn.T115\T115.DbContextFactory\bin\Debug\dbqn.T115OA.Model.pdb
+E:\最终项目\T115syyx\bdqn.T115\T115.DbContextFactory\bin\Debug\EntityFramework.xml
+E:\最终项目\T115syyx\bdqn.T115\T115.DbContextFactory\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\最终项目\T115syyx\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.csprojResolveAssemblyReference.cache
+E:\最终项目\T115syyx\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.dll
+E:\最终项目\T115syyx\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.pdb

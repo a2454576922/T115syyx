@@ -16,6 +16,15 @@
     <link rel="stylesheet" href="../../layui/css/layui.css" media="all" />
     <link rel="stylesheet" href="../../css/font_eolqem241z66flxr.css" media="all" />
     <link rel="stylesheet" href="../../css/news.css" media="all" />
+    <script src="~/Scripts/jquery-1.8.2.js"></script>
+    <script>
+        $(function () {
+            initTable("");
+        })
+        function initTable(query) {
+
+        }
+    </script>
 </head>
 <body class="childrenBody">
     <blockquote class="layui-elem-quote news_search">
@@ -45,10 +54,12 @@
         </div>
 
     </blockquote>
+    <div data-options="region:'center',title:'用户数据'" style="padding:5px;background:#eee;">
+        <table id="tt"></table>
+    </div>
     <div class="layui-form news_list">
         <table class="layui-table">
             <colgroup>
-
                 <col width="9%">
                 <col width="9%">
                 <col width="9%">
@@ -62,9 +73,9 @@
                     @*<th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose" id="allChoose"></th>*@
                     <th style="text-align:left;">编号</th>
                     @*<th>编号</th>*@
-                    <th>用户名称</th>
-                    <th>电话</th>
-                    <th>部门编号</th>
+                    <th>权限名称</th>
+                    <th>路径</th>
+                    <th>访问方式</th>
                     <th>备注</th>
 
                 </tr>
