@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="2fcd039453c44492afac12775ebbc697" Name="Diagram1" ZoomLevel="82" >
+      <Diagram DiagramId="2fcd039453c44492afac12775ebbc697" Name="Diagram1" ZoomLevel="94" >
         <EntityTypeShape EntityType="DataModel.ActionInfo" Width="1.5" PointX="7.375" PointY="1.5" />
         <EntityTypeShape EntityType="DataModel.Department" PointX="5.125" PointY="1.5" Width="1.5" />
         <AssociationConnector Association="DataModel.DepartmentActionInfo" />
@@ -35,6 +35,12 @@
         <AssociationConnector Association="DataModel.GradeSubject" />
         <AssociationConnector Association="DataModel.SubjectResultInfo" />
         <AssociationConnector Association="DataModel.StudentFileResultInfo" />
+        <EntityTypeShape EntityType="DataModel.AttendanceInfo" Width="1.5" PointX="10.375" PointY="3" />
+        <AssociationConnector Association="DataModel.UserAttendanceInfo" />
+        <EntityTypeShape EntityType="DataModel.PostInfo" Width="1.5" PointX="12.625" PointY="4" />
+        <AssociationConnector Association="DataModel.PostInfoUser" />
+        <EntityTypeShape EntityType="DataModel.SalaryInfo" Width="1.5" PointX="11" PointY="7.25" />
+        <AssociationConnector Association="DataModel.UserSalaryInfo" />
       </Diagram>
       <Diagram DiagramId="bc2bc7430384407d96bcac1a3896b716" Name="Diagram2" >
         <EntityTypeShape EntityType="DataModel.Result" Width="1.5" PointX="0.75" PointY="0.75" />

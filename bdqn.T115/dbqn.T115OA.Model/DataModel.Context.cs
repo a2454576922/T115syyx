@@ -41,5 +41,8 @@ namespace dbqn.T115OA.Model
         public DbSet<ResultInfo> ResultInfo { get; set; }
         public DbSet<Subject> Subject { get; set; }
         public DbSet<Grade> Grade { get; set; }
+        public DbSet<AttendanceInfo> AttendanceInfo { get; set; }
+        public DbSet<PostInfo> PostInfo { get; set; }
+        public DbSet<SalaryInfo> SalaryInfo { get; set; }
     }
 }

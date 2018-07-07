@@ -18,6 +18,8 @@ namespace dbqn.T115OA.Model
         {
             this.Role = new HashSet<Role>();
             this.ActionInfo = new HashSet<ActionInfo>();
+            this.AttendanceInfo = new HashSet<AttendanceInfo>();
+            this.SalaryInfo = new HashSet<SalaryInfo>();
         }
     
         public int Id { get; set; }
@@ -30,8 +32,14 @@ namespace dbqn.T115OA.Model
         public System.DateTime SubTime { get; set; }
         public string Remark { get; set; }
         public int DepartmentId { get; set; }
+        public string Address { get; set; }
+        public string Identification { get; set; }
+        public int PostInfoId { get; set; }
     
         public virtual ICollection<Role> Role { get; set; }
         public virtual ICollection<ActionInfo> ActionInfo { get; set; }
+        public virtual ICollection<AttendanceInfo> AttendanceInfo { get; set; }
+        public virtual PostInfo PostInfo { get; set; }
+        public virtual ICollection<SalaryInfo> SalaryInfo { get; set; }
     }
 }

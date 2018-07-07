@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/06/2018 14:23:58
--- Generated from EDMX file: D:\最后一个项目\T115syyx\bdqn.T115\dbqn.T115OA.Model\DataModel.edmx
+-- Date Created: 07/07/2018 15:05:48
+-- Generated from EDMX file: E:\115C#\T115syyx\bdqn.T115\dbqn.T115OA.Model\DataModel.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -68,6 +68,24 @@ GO
 IF OBJECT_ID(N'[dbo].[FK_ConsultDepartment]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[Consult] DROP CONSTRAINT [FK_ConsultDepartment];
 GO
+IF OBJECT_ID(N'[dbo].[FK_GradeSubject]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Subject] DROP CONSTRAINT [FK_GradeSubject];
+GO
+IF OBJECT_ID(N'[dbo].[FK_SubjectResultInfo]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[ResultInfo] DROP CONSTRAINT [FK_SubjectResultInfo];
+GO
+IF OBJECT_ID(N'[dbo].[FK_StudentFileResultInfo]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[ResultInfo] DROP CONSTRAINT [FK_StudentFileResultInfo];
+GO
+IF OBJECT_ID(N'[dbo].[FK_UserAttendanceInfo]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[AttendanceInfo] DROP CONSTRAINT [FK_UserAttendanceInfo];
+GO
+IF OBJECT_ID(N'[dbo].[FK_PostInfoUser]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[User] DROP CONSTRAINT [FK_PostInfoUser];
+GO
+IF OBJECT_ID(N'[dbo].[FK_UserSalaryInfo]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[SalaryInfo] DROP CONSTRAINT [FK_UserSalaryInfo];
+GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
@@ -108,6 +126,27 @@ IF OBJECT_ID(N'[dbo].[Student]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[ClassManagement]', 'U') IS NOT NULL
     DROP TABLE [dbo].[ClassManagement];
+GO
+IF OBJECT_ID(N'[dbo].[Result]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Result];
+GO
+IF OBJECT_ID(N'[dbo].[ResultInfo]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[ResultInfo];
+GO
+IF OBJECT_ID(N'[dbo].[Subject]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Subject];
+GO
+IF OBJECT_ID(N'[dbo].[Grade]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Grade];
+GO
+IF OBJECT_ID(N'[dbo].[AttendanceInfo]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[AttendanceInfo];
+GO
+IF OBJECT_ID(N'[dbo].[PostInfo]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[PostInfo];
+GO
+IF OBJECT_ID(N'[dbo].[SalaryInfo]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[SalaryInfo];
 GO
 IF OBJECT_ID(N'[dbo].[DepartmentActionInfo]', 'U') IS NOT NULL
     DROP TABLE [dbo].[DepartmentActionInfo];
@@ -193,7 +232,10 @@ CREATE TABLE [dbo].[User] (
     [SubBy] int  NOT NULL,
     [SubTime] datetime  NOT NULL,
     [Remark] nvarchar(max)  NULL,
-    [DepartmentId] int  NOT NULL
+    [DepartmentId] int  NOT NULL,
+    [Address] nvarchar(max)  NOT NULL,
+    [Identification] nvarchar(max)  NOT NULL,
+    [PostInfoId] int  NOT NULL
 );
 GO
 
@@ -342,6 +384,41 @@ CREATE TABLE [dbo].[Grade] (
 );
 GO
 
+-- Creating table 'AttendanceInfo'
+CREATE TABLE [dbo].[AttendanceInfo] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Name] nvarchar(max)  NOT NULL,
+    [DataTime] datetime  NOT NULL,
+    [Days] nvarchar(max)  NOT NULL,
+    [Qwork] nvarchar(max)  NOT NULL,
+    [Qabsent] nvarchar(max)  NOT NULL,
+    [Qearly] nvarchar(max)  NOT NULL,
+    [Qover] nvarchar(max)  NOT NULL,
+    [UserId] int  NOT NULL
+);
+GO
+
+-- Creating table 'PostInfo'
+CREATE TABLE [dbo].[PostInfo] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [PostName] nvarchar(max)  NOT NULL,
+    [SalaryMoney] decimal(18,0)  NOT NULL
+);
+GO
+
+-- Creating table 'SalaryInfo'
+CREATE TABLE [dbo].[SalaryInfo] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Name] nvarchar(max)  NOT NULL,
+    [WorkTime] datetime  NOT NULL,
+    [BaseMoney] decimal(18,0)  NOT NULL,
+    [BonusMoney] decimal(18,0)  NOT NULL,
+    [AmerceMoney] decimal(18,0)  NOT NULL,
+    [LaborageMoney] decimal(18,0)  NOT NULL,
+    [UserId] int  NOT NULL
+);
+GO
+
 -- Creating table 'DepartmentActionInfo'
 CREATE TABLE [dbo].[DepartmentActionInfo] (
     [Department_Id] int  NOT NULL,
@@ -474,6 +551,24 @@ GO
 -- Creating primary key on [Id] in table 'Grade'
 ALTER TABLE [dbo].[Grade]
 ADD CONSTRAINT [PK_Grade]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'AttendanceInfo'
+ALTER TABLE [dbo].[AttendanceInfo]
+ADD CONSTRAINT [PK_AttendanceInfo]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'PostInfo'
+ALTER TABLE [dbo].[PostInfo]
+ADD CONSTRAINT [PK_PostInfo]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'SalaryInfo'
+ALTER TABLE [dbo].[SalaryInfo]
+ADD CONSTRAINT [PK_SalaryInfo]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
@@ -764,6 +859,48 @@ ADD CONSTRAINT [FK_StudentFileResultInfo]
 CREATE INDEX [IX_FK_StudentFileResultInfo]
 ON [dbo].[ResultInfo]
     ([StudentFileId]);
+GO
+
+-- Creating foreign key on [UserId] in table 'AttendanceInfo'
+ALTER TABLE [dbo].[AttendanceInfo]
+ADD CONSTRAINT [FK_UserAttendanceInfo]
+    FOREIGN KEY ([UserId])
+    REFERENCES [dbo].[User]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_UserAttendanceInfo'
+CREATE INDEX [IX_FK_UserAttendanceInfo]
+ON [dbo].[AttendanceInfo]
+    ([UserId]);
+GO
+
+-- Creating foreign key on [PostInfoId] in table 'User'
+ALTER TABLE [dbo].[User]
+ADD CONSTRAINT [FK_PostInfoUser]
+    FOREIGN KEY ([PostInfoId])
+    REFERENCES [dbo].[PostInfo]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_PostInfoUser'
+CREATE INDEX [IX_FK_PostInfoUser]
+ON [dbo].[User]
+    ([PostInfoId]);
+GO
+
+-- Creating foreign key on [UserId] in table 'SalaryInfo'
+ALTER TABLE [dbo].[SalaryInfo]
+ADD CONSTRAINT [FK_UserSalaryInfo]
+    FOREIGN KEY ([UserId])
+    REFERENCES [dbo].[User]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_UserSalaryInfo'
+CREATE INDEX [IX_FK_UserSalaryInfo]
+ON [dbo].[SalaryInfo]
+    ([UserId]);
 GO
 
 -- --------------------------------------------------
