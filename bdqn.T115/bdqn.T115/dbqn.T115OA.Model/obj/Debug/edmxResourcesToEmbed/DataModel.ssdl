@@ -17,6 +17,9 @@
     <EntitySet Name="ResultInfo" EntityType="DataModel.Store.ResultInfo" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Subject" EntityType="DataModel.Store.Subject" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Grade" EntityType="DataModel.Store.Grade" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AttendanceInfo" EntityType="DataModel.Store.AttendanceInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SalaryInfo" EntityType="DataModel.Store.SalaryInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PostInfo" EntityType="DataModel.Store.PostInfo" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="DepartmentActionInfo" EntityType="DataModel.Store.DepartmentActionInfo" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="RoleActionInfo" EntityType="DataModel.Store.RoleActionInfo" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="MenuInfoActionInfo" EntityType="DataModel.Store.MenuInfoActionInfo" store:Type="Tables" Schema="dbo" />
@@ -102,6 +105,18 @@
       <End Role="StudentFile" EntitySet="Student" />
       <End Role="ResultInfo" EntitySet="ResultInfo" />
     </AssociationSet>
+    <AssociationSet Name="UserSalaryInfo" Association="DataModel.Store.UserSalaryInfo">
+      <End Role="User" EntitySet="User" />
+      <End Role="SalaryInfo" EntitySet="SalaryInfo" />
+    </AssociationSet>
+    <AssociationSet Name="PostInfoUser" Association="DataModel.Store.PostInfoUser">
+      <End Role="PostInfo" EntitySet="PostInfo" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="UserAttendanceInfo" Association="DataModel.Store.UserAttendanceInfo">
+      <End Role="User" EntitySet="User" />
+      <End Role="AttendanceInfo" EntitySet="AttendanceInfo" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="ActionInfo">
     <Key>
@@ -170,6 +185,9 @@
     <Property Name="SubTime" Type="datetime" Nullable="false" />
     <Property Name="Remark" Type="nvarchar(max)" Nullable="true" />
     <Property Name="DepartmentId" Type="int" Nullable="false" />
+    <Property Name="Identification" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PostInfoId" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="Consult">
     <Key>
@@ -315,6 +333,41 @@
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="GradeName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AttendanceInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DataTime" Type="datetime" Nullable="false" />
+    <Property Name="Days" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Qwork" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Qabsent" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Qearly" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Qover" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SalaryInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="WorkTime" Type="datetime" Nullable="false" />
+    <Property Name="BaseMoney" Type="decimal" Nullable="false" />
+    <Property Name="BonusMoney" Type="decimal" Nullable="false" />
+    <Property Name="AmerceMoney" Type="decimal" Nullable="false" />
+    <Property Name="LaborageMoney" Type="decimal" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PostInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PostName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SalaryMoney" Type="decimal" Nullable="false" />
   </EntityType>
   <EntityType Name="DepartmentActionInfo">
     <Key>
@@ -473,6 +526,42 @@
       </Principal>
       <Dependent Role="ResultInfo">
         <PropertyRef Name="StudentFileId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserSalaryInfo">
+    <End Role="User" Type="DataModel.Store.User" Multiplicity="1" />
+    <End Role="SalaryInfo" Type="DataModel.Store.SalaryInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SalaryInfo">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PostInfoUser">
+    <End Role="PostInfo" Type="DataModel.Store.PostInfo" Multiplicity="1" />
+    <End Role="User" Type="DataModel.Store.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PostInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="PostInfoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserAttendanceInfo">
+    <End Role="User" Type="DataModel.Store.User" Multiplicity="1" />
+    <End Role="AttendanceInfo" Type="DataModel.Store.AttendanceInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AttendanceInfo">
+        <PropertyRef Name="UserId" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

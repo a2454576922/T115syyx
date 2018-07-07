@@ -38,3 +38,13 @@ E:\115C#\T115syyx\bdqn.T115\T115.DbContextFactory\bin\Debug\zh-Hans\EntityFramew
 E:\115C#\T115syyx\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.csprojResolveAssemblyReference.cache
 E:\115C#\T115syyx\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.dll
 E:\115C#\T115syyx\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.pdb
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\T115.DbContextFactory.dll
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\T115.DbContextFactory.pdb
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\dbqn.T115OA.Model.dll
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\EntityFramework.dll
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\dbqn.T115OA.Model.pdb
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\EntityFramework.xml
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.csprojResolveAssemblyReference.cache
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.dll
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.pdb

@@ -161,6 +161,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\ResultInfoController.cs" />
+    <Compile Include="Controllers\SalaryController.cs" />
     <Compile Include="Controllers\StudentarchivesController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
@@ -434,6 +435,7 @@
     <Content Include="Views\ResultInfo\Index.cshtml" />
     <Content Include="Views\ActionInfo\Index.cshtml" />
     <Content Include="Views\AttendInfo\AttendList.cshtml" />
+    <Content Include="Views\Salary\SalaryList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

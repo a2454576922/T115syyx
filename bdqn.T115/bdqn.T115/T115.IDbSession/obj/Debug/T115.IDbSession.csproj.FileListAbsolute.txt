@@ -46,3 +46,15 @@ E:\115C#\T115syyx\bdqn.T115\T115.IDbSession\bin\Debug\zh-Hans\EntityFramework.re
 E:\115C#\T115syyx\bdqn.T115\T115.IDbSession\obj\Debug\T115.IDbSession.csprojResolveAssemblyReference.cache
 E:\115C#\T115syyx\bdqn.T115\T115.IDbSession\obj\Debug\T115.IDbSession.dll
 E:\115C#\T115syyx\bdqn.T115\T115.IDbSession\obj\Debug\T115.IDbSession.pdb
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDbSession\bin\Debug\T115.IDbSession.dll
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDbSession\bin\Debug\T115.IDbSession.pdb
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDbSession\bin\Debug\T115.IDal.dll
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDbSession\bin\Debug\dbqn.T115OA.Model.dll
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDbSession\bin\Debug\EntityFramework.dll
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDbSession\bin\Debug\T115.IDal.pdb
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDbSession\bin\Debug\dbqn.T115OA.Model.pdb
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDbSession\bin\Debug\EntityFramework.xml
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDbSession\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDbSession\obj\Debug\T115.IDbSession.csprojResolveAssemblyReference.cache
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDbSession\obj\Debug\T115.IDbSession.dll
+E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDbSession\obj\Debug\T115.IDbSession.pdb

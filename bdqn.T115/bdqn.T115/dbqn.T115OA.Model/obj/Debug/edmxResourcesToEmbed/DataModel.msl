@@ -71,6 +71,9 @@
           <ScalarProperty Name="SubTime" ColumnName="SubTime" />
           <ScalarProperty Name="Remark" ColumnName="Remark" />
           <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="Identification" ColumnName="Identification" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PostInfoId" ColumnName="PostInfoId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -226,6 +229,44 @@
         <MappingFragment StoreEntitySet="Grade">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="GradeName" ColumnName="GradeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AttendanceInfo">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.AttendanceInfo)">
+        <MappingFragment StoreEntitySet="AttendanceInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DataTime" ColumnName="DataTime" />
+          <ScalarProperty Name="Days" ColumnName="Days" />
+          <ScalarProperty Name="Qwork" ColumnName="Qwork" />
+          <ScalarProperty Name="Qabsent" ColumnName="Qabsent" />
+          <ScalarProperty Name="Qearly" ColumnName="Qearly" />
+          <ScalarProperty Name="Qover" ColumnName="Qover" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SalaryInfo">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.SalaryInfo)">
+        <MappingFragment StoreEntitySet="SalaryInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="WorkTime" ColumnName="WorkTime" />
+          <ScalarProperty Name="BaseMoney" ColumnName="BaseMoney" />
+          <ScalarProperty Name="BonusMoney" ColumnName="BonusMoney" />
+          <ScalarProperty Name="AmerceMoney" ColumnName="AmerceMoney" />
+          <ScalarProperty Name="LaborageMoney" ColumnName="LaborageMoney" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PostInfo">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.PostInfo)">
+        <MappingFragment StoreEntitySet="PostInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PostName" ColumnName="PostName" />
+          <ScalarProperty Name="SalaryMoney" ColumnName="SalaryMoney" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
