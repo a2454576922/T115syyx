@@ -1,0 +1,40 @@
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IBll\bin\Debug\T115.IBll.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IBll\bin\Debug\T115.IBll.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IBll\bin\Debug\dbqn.T115OA.Model.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IBll\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IBll\bin\Debug\dbqn.T115OA.Model.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IBll\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IBll\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IBll\obj\Debug\T115.IBll.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IBll\obj\Debug\T115.IBll.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\T115.IBll\obj\Debug\T115.IBll.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IBll\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.dll
+C:\Users\Administrator\Desktop\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.pdb
+F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.dll
+F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.pdb
+F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.dll
+F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.dll
+F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.pdb
+F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.xml
+F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.csprojResolveAssemblyReference.cache
+F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.dll
+F:\Y2项目\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.pdb
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.dll
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.pdb
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.dll
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.dll
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.pdb
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.xml
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.csprojResolveAssemblyReference.cache
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.dll
+E:\115C#\T115syyx\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.pdb

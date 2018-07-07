@@ -1,0 +1,296 @@
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\bdqn.webApp.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\bdqn.webApp.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\bdqn.webApp.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\AutoMapper.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\Common.Logging.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\dbqn.T115OA.Model.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\log4net.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\Spring.Aop.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\Spring.Core.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\Spring.Web.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\Spring.Web.Mvc4.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.Http.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.Providers.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.Razor.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.Bll.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.Common.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.DalFactory.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.DbContextFactory.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.DbSession.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.DbSessionFactory.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.EFDal.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.Factory.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.IBll.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.IDal.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.IDbSession.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\WebGrease.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\dbqn.T115OA.Model.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.Bll.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.Common.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.DalFactory.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.DbContextFactory.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.DbSessionFactory.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.DbSession.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.EFDal.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.Factory.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.IBll.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.IDal.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\T115.IDbSession.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.Http.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.Razor.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\zh-Hans\System.Web.Providers.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\obj\Debug\bdqn.webApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\obj\Debug\bdqn.webApp.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\bdqn.T115学校管理系统\MvcApplication1\obj\Debug\bdqn.webApp.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\bdqn.webApp.dll.config
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\bdqn.webApp.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\bdqn.webApp.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\AutoMapper.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\Common.Logging.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\dbqn.T115OA.Model.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\log4net.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\Spring.Aop.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\Spring.Core.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\Spring.Web.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\Spring.Web.Mvc4.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.Providers.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.Bll.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.Common.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.DalFactory.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.DbContextFactory.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.DbSession.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.DbSessionFactory.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.EFDal.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.Factory.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.IBll.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.IDal.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.IDbSession.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\dbqn.T115OA.Model.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.Bll.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.Common.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.DalFactory.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.DbContextFactory.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.DbSessionFactory.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.DbSession.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.EFDal.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.Factory.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.IBll.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.IDal.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\T115.IDbSession.pdb
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Providers.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\obj\Debug\bdqn.webApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\obj\Debug\bdqn.webApp.dll
+C:\Users\Administrator\Desktop\bdqn.T115\MvcApplication1\obj\Debug\bdqn.webApp.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\bdqn.webApp.dll.config
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\bdqn.webApp.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\bdqn.webApp.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\Antlr3.Runtime.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\AutoMapper.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\Common.Logging.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\dbqn.T115OA.Model.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\EntityFramework.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\log4net.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\Newtonsoft.Json.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\Spring.Aop.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\Spring.Core.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\Spring.Web.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\Spring.Web.Mvc4.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Net.Http.Formatting.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Http.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Http.WebHost.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Mvc.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Optimization.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Providers.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Razor.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.Bll.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.Common.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DalFactory.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DbContextFactory.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DbSession.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DbSessionFactory.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.EFDal.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.Factory.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.IBll.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.IDal.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.IDbSession.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\WebGrease.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\dbqn.T115OA.Model.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.Bll.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.Common.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DalFactory.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DbContextFactory.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DbSessionFactory.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DbSession.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.EFDal.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.Factory.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.IBll.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.IDal.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\T115.IDbSession.pdb
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\EntityFramework.xml
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\Newtonsoft.Json.xml
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Net.Http.Formatting.xml
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Http.xml
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Http.WebHost.xml
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Mvc.xml
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Razor.xml
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.xml
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\EntityFramework.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Http.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Optimization.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Providers.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\obj\Debug\bdqn.webApp.csprojResolveAssemblyReference.cache
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\obj\Debug\bdqn.webApp.dll
+F:\Y2项目\T115syyx\bdqn.T115\MvcApplication1\obj\Debug\bdqn.webApp.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\bdqn.webApp.dll.config
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\bdqn.webApp.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\bdqn.webApp.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\Antlr3.Runtime.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\AutoMapper.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\Common.Logging.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\dbqn.T115OA.Model.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\EntityFramework.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\log4net.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\Newtonsoft.Json.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\Spring.Aop.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\Spring.Core.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\Spring.Web.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\Spring.Web.Mvc4.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Net.Http.Formatting.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Http.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Http.WebHost.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Mvc.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Optimization.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Providers.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Razor.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.Bll.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.Common.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DalFactory.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DbContextFactory.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DbSession.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DbSessionFactory.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.EFDal.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.Factory.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.IBll.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.IDal.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.IDbSession.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\WebGrease.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\dbqn.T115OA.Model.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.Bll.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.Common.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DalFactory.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DbContextFactory.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DbSessionFactory.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.DbSession.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.EFDal.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.Factory.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.IBll.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.IDal.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\T115.IDbSession.pdb
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\EntityFramework.xml
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\Newtonsoft.Json.xml
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Net.Http.Formatting.xml
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Http.xml
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Http.WebHost.xml
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Mvc.xml
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.Razor.xml
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.xml
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\EntityFramework.resources.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Http.resources.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Providers.resources.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\obj\Debug\bdqn.webApp.csprojResolveAssemblyReference.cache
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\obj\Debug\bdqn.webApp.dll
+E:\115C#\T115syyx\bdqn.T115\MvcApplication1\obj\Debug\bdqn.webApp.pdb
