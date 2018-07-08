@@ -2,8 +2,13 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
+<<<<<<< HEAD
 -- Date Created: 07/08/2018 08:14:21
 -- Generated from EDMX file: D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\DataModel.edmx
+=======
+-- Date Created: 07/08/2018 08:54:45
+-- Generated from EDMX file: F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\DataModel.edmx
+>>>>>>> origin/master
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -244,25 +249,25 @@ GO
 CREATE TABLE [dbo].[Consult] (
     [Id] int IDENTITY(1,1) NOT NULL,
     [SourceId] int  NOT NULL,
-    [remark] nvarchar(max)  NOT NULL,
-    [DelFlag] smallint  NOT NULL,
-    [SubBy] int  NOT NULL,
-    [subTiem] datetime  NOT NULL,
-    [stuName] nvarchar(max)  NOT NULL,
-    [sex] nvarchar(max)  NOT NULL,
-    [phone] nvarchar(max)  NOT NULL,
-    [address] nvarchar(max)  NOT NULL,
-    [major] nvarchar(max)  NOT NULL,
-    [industry] nvarchar(max)  NOT NULL,
-    [basis] nvarchar(max)  NOT NULL,
-    [FavoriteIndusery] nvarchar(max)  NOT NULL,
-    [FavoriteJob] nvarchar(max)  NOT NULL,
-    [CurrentSchool] nvarchar(max)  NOT NULL,
-    [grade] nvarchar(max)  NOT NULL,
-    [hope] bit  NOT NULL,
+    [remark] nvarchar(max)  NULL,
+    [DelFlag] smallint  NULL,
+    [SubBy] int  NULL,
+    [subTiem] datetime  NULL,
+    [stuName] nvarchar(max)  NULL,
+    [sex] nvarchar(max)  NULL,
+    [phone] nvarchar(max)  NULL,
+    [address] nvarchar(max)  NULL,
+    [major] nvarchar(max)  NULL,
+    [industry] nvarchar(max)  NULL,
+    [basis] nvarchar(max)  NULL,
+    [FavoriteIndusery] nvarchar(max)  NULL,
+    [FavoriteJob] nvarchar(max)  NULL,
+    [CurrentSchool] nvarchar(max)  NULL,
+    [grade] nvarchar(max)  NULL,
+    [hope] bit  NULL,
     [DepartmentId] int  NOT NULL,
-    [Statedoor] nvarchar(max)  NOT NULL,
-    [referrer] nvarchar(max)  NOT NULL,
+    [Statedoor] nvarchar(max)  NULL,
+    [referrer] nvarchar(max)  NULL,
     [education_Id] int  NOT NULL
 );
 GO
@@ -298,47 +303,47 @@ CREATE TABLE [dbo].[Source] (
 );
 GO
 
--- Creating table 'Student'
-CREATE TABLE [dbo].[Student] (
+-- Creating table 'StudentFile'
+CREATE TABLE [dbo].[StudentFile] (
     [Id] int IDENTITY(1,1) NOT NULL,
     [payId] int  NOT NULL,
     [ClassManagementId] int  NOT NULL,
     [educationId] int  NOT NULL,
-    [Registrationtime] nvarchar(max)  NOT NULL,
-    [Name] nvarchar(max)  NOT NULL,
-    [Namepinyin] nvarchar(max)  NOT NULL,
-    [Sex] nvarchar(max)  NOT NULL,
-    [Dateofbirth] datetime  NOT NULL,
-    [Nation] nvarchar(max)  NOT NULL,
-    [IDnumber] nvarchar(max)  NOT NULL,
-    [IDaddress] nvarchar(max)  NOT NULL,
-    [XAddress] nvarchar(max)  NOT NULL,
-    [ISaccommodation] bit  NOT NULL,
-    [PhoNumber] nvarchar(max)  NOT NULL,
-    [Sourcesofcost] float  NOT NULL,
-    [QQ] nvarchar(max)  NOT NULL,
-    [Guardianname] nvarchar(max)  NOT NULL,
-    [GuardianPhone] nvarchar(max)  NOT NULL,
-    [Wechat] nvarchar(max)  NOT NULL,
-    [Interest] nvarchar(max)  NOT NULL,
-    [Speciality] nvarchar(max)  NOT NULL,
-    [OWEP] nvarchar(max)  NOT NULL,
-    [Other] nvarchar(max)  NOT NULL,
-    [Programming] nvarchar(max)  NOT NULL,
-    [Intrnet] nvarchar(max)  NOT NULL,
-    [correation] nvarchar(max)  NOT NULL,
-    [operation] nvarchar(max)  NOT NULL,
-    [Readingstate] nvarchar(max)  NOT NULL,
-    [manage] bit  NOT NULL,
-    [school] nvarchar(max)  NOT NULL,
-    [inclass] nvarchar(max)  NOT NULL,
-    [TimeGroad] datetime  NOT NULL,
-    [recommend] bit  NOT NULL,
-    [remark] nvarchar(max)  NOT NULL,
-    [DelFlag] int  NOT NULL,
-    [SubBy] int  NOT NULL,
-    [subTiem] datetime  NOT NULL,
-    [entranceState] nvarchar(max)  NOT NULL
+    [Registrationtime] nvarchar(max)  NULL,
+    [Name] nvarchar(max)  NULL,
+    [Namepinyin] nvarchar(max)  NULL,
+    [Sex] nvarchar(max)  NULL,
+    [Dateofbirth] datetime  NULL,
+    [Nation] nvarchar(max)  NULL,
+    [IDnumber] nvarchar(max)  NULL,
+    [IDaddress] nvarchar(max)  NULL,
+    [XAddress] nvarchar(max)  NULL,
+    [ISaccommodation] bit  NULL,
+    [PhoNumber] nvarchar(max)  NULL,
+    [Sourcesofcost] float  NULL,
+    [QQ] nvarchar(max)  NULL,
+    [Guardianname] nvarchar(max)  NULL,
+    [GuardianPhone] nvarchar(max)  NULL,
+    [Wechat] nvarchar(max)  NULL,
+    [Interest] nvarchar(max)  NULL,
+    [Speciality] nvarchar(max)  NULL,
+    [OWEP] nvarchar(max)  NULL,
+    [Other] nvarchar(max)  NULL,
+    [Programming] nvarchar(max)  NULL,
+    [Intrnet] nvarchar(max)  NULL,
+    [correation] nvarchar(max)  NULL,
+    [operation] nvarchar(max)  NULL,
+    [Readingstate] nvarchar(max)  NULL,
+    [manage] bit  NULL,
+    [school] nvarchar(max)  NULL,
+    [inclass] nvarchar(max)  NULL,
+    [TimeGroad] datetime  NULL,
+    [recommend] bit  NULL,
+    [remark] nvarchar(max)  NULL,
+    [DelFlag] int  NULL,
+    [SubBy] int  NULL,
+    [subTiem] datetime  NULL,
+    [entranceState] nvarchar(max)  NULL
 );
 GO
 
@@ -519,9 +524,9 @@ ADD CONSTRAINT [PK_Source]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
--- Creating primary key on [Id] in table 'Student'
-ALTER TABLE [dbo].[Student]
-ADD CONSTRAINT [PK_Student]
+-- Creating primary key on [Id] in table 'StudentFile'
+ALTER TABLE [dbo].[StudentFile]
+ADD CONSTRAINT [PK_StudentFile]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
@@ -754,7 +759,7 @@ GO
 ALTER TABLE [dbo].[Family]
 ADD CONSTRAINT [FK_StudentFamily]
     FOREIGN KEY ([StudentId])
-    REFERENCES [dbo].[Student]
+    REFERENCES [dbo].[StudentFile]
         ([Id])
     ON DELETE NO ACTION ON UPDATE NO ACTION;
 
@@ -764,8 +769,8 @@ ON [dbo].[Family]
     ([StudentId]);
 GO
 
--- Creating foreign key on [payId] in table 'Student'
-ALTER TABLE [dbo].[Student]
+-- Creating foreign key on [payId] in table 'StudentFile'
+ALTER TABLE [dbo].[StudentFile]
 ADD CONSTRAINT [FK_payStudent]
     FOREIGN KEY ([payId])
     REFERENCES [dbo].[pay]
@@ -774,12 +779,12 @@ ADD CONSTRAINT [FK_payStudent]
 
 -- Creating non-clustered index for FOREIGN KEY 'FK_payStudent'
 CREATE INDEX [IX_FK_payStudent]
-ON [dbo].[Student]
+ON [dbo].[StudentFile]
     ([payId]);
 GO
 
--- Creating foreign key on [ClassManagementId] in table 'Student'
-ALTER TABLE [dbo].[Student]
+-- Creating foreign key on [ClassManagementId] in table 'StudentFile'
+ALTER TABLE [dbo].[StudentFile]
 ADD CONSTRAINT [FK_ClassManagementStudent]
     FOREIGN KEY ([ClassManagementId])
     REFERENCES [dbo].[ClassManagement]
@@ -788,12 +793,12 @@ ADD CONSTRAINT [FK_ClassManagementStudent]
 
 -- Creating non-clustered index for FOREIGN KEY 'FK_ClassManagementStudent'
 CREATE INDEX [IX_FK_ClassManagementStudent]
-ON [dbo].[Student]
+ON [dbo].[StudentFile]
     ([ClassManagementId]);
 GO
 
--- Creating foreign key on [educationId] in table 'Student'
-ALTER TABLE [dbo].[Student]
+-- Creating foreign key on [educationId] in table 'StudentFile'
+ALTER TABLE [dbo].[StudentFile]
 ADD CONSTRAINT [FK_educationStudent]
     FOREIGN KEY ([educationId])
     REFERENCES [dbo].[education]
@@ -802,7 +807,7 @@ ADD CONSTRAINT [FK_educationStudent]
 
 -- Creating non-clustered index for FOREIGN KEY 'FK_educationStudent'
 CREATE INDEX [IX_FK_educationStudent]
-ON [dbo].[Student]
+ON [dbo].[StudentFile]
     ([educationId]);
 GO
 
@@ -852,7 +857,7 @@ GO
 ALTER TABLE [dbo].[ResultInfo]
 ADD CONSTRAINT [FK_StudentFileResultInfo]
     FOREIGN KEY ([StudentFileId])
-    REFERENCES [dbo].[Student]
+    REFERENCES [dbo].[StudentFile]
         ([Id])
     ON DELETE NO ACTION ON UPDATE NO ACTION;
 

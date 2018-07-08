@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="2fcd039453c44492afac12775ebbc697" Name="Diagram1" ZoomLevel="75" >
+      <Diagram DiagramId="2fcd039453c44492afac12775ebbc697" Name="Diagram1" ZoomLevel="98" >
         <EntityTypeShape EntityType="DataModel.ActionInfo" Width="1.5" PointX="7.375" PointY="1.5" />
         <EntityTypeShape EntityType="DataModel.Department" PointX="5.125" PointY="1.5" Width="1.5" />
         <AssociationConnector Association="DataModel.DepartmentActionInfo" />

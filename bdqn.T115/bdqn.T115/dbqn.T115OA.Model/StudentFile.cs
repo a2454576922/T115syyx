@@ -28,14 +28,14 @@ namespace dbqn.T115OA.Model
         public string Name { get; set; }
         public string Namepinyin { get; set; }
         public string Sex { get; set; }
-        public System.DateTime Dateofbirth { get; set; }
+        public Nullable<System.DateTime> Dateofbirth { get; set; }
         public string Nation { get; set; }
         public string IDnumber { get; set; }
         public string IDaddress { get; set; }
         public string XAddress { get; set; }
-        public bool ISaccommodation { get; set; }
+        public Nullable<bool> ISaccommodation { get; set; }
         public string PhoNumber { get; set; }
-        public double Sourcesofcost { get; set; }
+        public Nullable<double> Sourcesofcost { get; set; }
         public string QQ { get; set; }
         public string Guardianname { get; set; }
         public string GuardianPhone { get; set; }
@@ -49,15 +49,15 @@ namespace dbqn.T115OA.Model
         public string correation { get; set; }
         public string operation { get; set; }
         public string Readingstate { get; set; }
-        public bool manage { get; set; }
+        public Nullable<bool> manage { get; set; }
         public string school { get; set; }
         public string inclass { get; set; }
-        public System.DateTime TimeGroad { get; set; }
-        public bool recommend { get; set; }
+        public Nullable<System.DateTime> TimeGroad { get; set; }
+        public Nullable<bool> recommend { get; set; }
         public string remark { get; set; }
-        public int DelFlag { get; set; }
-        public int SubBy { get; set; }
-        public System.DateTime subTiem { get; set; }
+        public Nullable<int> DelFlag { get; set; }
+        public Nullable<int> SubBy { get; set; }
+        public Nullable<System.DateTime> subTiem { get; set; }
         public string entranceState { get; set; }
     
         public virtual ICollection<Family> Family { get; set; }

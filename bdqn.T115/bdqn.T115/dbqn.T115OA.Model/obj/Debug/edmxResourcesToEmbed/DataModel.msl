@@ -140,9 +140,9 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Student">
+    <EntitySetMapping Name="StudentFile">
       <EntityTypeMapping TypeName="IsTypeOf(DataModel.StudentFile)">
-        <MappingFragment StoreEntitySet="Student">
+        <MappingFragment StoreEntitySet="StudentFile">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="payId" ColumnName="payId" />
           <ScalarProperty Name="ClassManagementId" ColumnName="ClassManagementId" />
