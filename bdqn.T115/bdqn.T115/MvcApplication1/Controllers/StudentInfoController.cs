@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace bdqn.webApp.Controllers
 {
-    public class StudentsInfoController : Controller
+    public class StudentInfoController : Controller
     {
         //
-        // GET: /StudentsInfo/
+        // GET: /StudentInfo/
 
         public ActionResult Index()
         {

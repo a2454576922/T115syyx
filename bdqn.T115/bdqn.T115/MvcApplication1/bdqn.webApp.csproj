@@ -437,6 +437,7 @@
     <Content Include="Views\AttendInfo\AttendList.cshtml" />
     <Content Include="Views\Salary\SalaryList.cshtml" />
     <Content Include="Views\Studentarchives\Add.cshtml" />
+    <Content Include="Views\Studentarchives\Update.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
