@@ -256,6 +256,7 @@
     <Content Include="js\linksList.js" />
     <Content Include="js\main.js" />
     <Content Include="js\nav.js" />
+    <Content Include="js\newsAdd.js" />
     <Content Include="layui\css\layui.css" />
     <Content Include="layui\css\layui.mobile.css" />
     <Content Include="layui\css\modules\code.css" />
@@ -436,6 +437,8 @@
     <Content Include="Views\ActionInfo\Index.cshtml" />
     <Content Include="Views\AttendInfo\AttendList.cshtml" />
     <Content Include="Views\Salary\SalaryList.cshtml" />
+    <Content Include="Views\User\EmployeeList.cshtml" />
+    <Content Include="Views\User\AddEmployeeList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
