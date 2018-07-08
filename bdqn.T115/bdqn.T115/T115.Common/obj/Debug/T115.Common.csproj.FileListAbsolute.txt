@@ -20,3 +20,18 @@ E:\115C#\T115syyx\bdqn.T115\T115.Common\bin\Debug\log4net.dll
 E:\115C#\T115syyx\bdqn.T115\T115.Common\obj\Debug\T115.Common.csprojResolveAssemblyReference.cache
 E:\115C#\T115syyx\bdqn.T115\T115.Common\obj\Debug\T115.Common.dll
 E:\115C#\T115syyx\bdqn.T115\T115.Common\obj\Debug\T115.Common.pdb
+<<<<<<< HEAD
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.Common\bin\Debug\T115.Common.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.Common\bin\Debug\T115.Common.pdb
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.Common\bin\Debug\log4net.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.Common\obj\Debug\T115.Common.csprojResolveAssemblyReference.cache
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.Common\obj\Debug\T115.Common.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.Common\obj\Debug\T115.Common.pdb
+=======
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.Common\bin\Debug\T115.Common.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.Common\bin\Debug\T115.Common.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.Common\bin\Debug\log4net.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.Common\obj\Debug\T115.Common.csprojResolveAssemblyReference.cache
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.Common\obj\Debug\T115.Common.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.Common\obj\Debug\T115.Common.pdb
+>>>>>>> origin/master

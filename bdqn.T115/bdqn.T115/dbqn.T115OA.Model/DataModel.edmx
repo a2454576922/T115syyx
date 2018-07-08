@@ -16,7 +16,7 @@
     <EntitySet Name="Family" EntityType="DataModel.Store.Family" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="pay" EntityType="DataModel.Store.pay" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Source" EntityType="DataModel.Store.Source" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Student" EntityType="DataModel.Store.Student" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StudentFile" EntityType="DataModel.Store.StudentFile" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="ClassManagement" EntityType="DataModel.Store.ClassManagement" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Result" EntityType="DataModel.Store.Result" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="ResultInfo" EntityType="DataModel.Store.ResultInfo" store:Type="Tables" Schema="dbo" />
@@ -79,20 +79,20 @@
       <End Role="Consult" EntitySet="Consult" />
     </AssociationSet>
     <AssociationSet Name="StudentFamily" Association="DataModel.Store.StudentFamily">
-      <End Role="Student" EntitySet="Student" />
+      <End Role="Student" EntitySet="StudentFile" />
       <End Role="Family" EntitySet="Family" />
     </AssociationSet>
     <AssociationSet Name="payStudent" Association="DataModel.Store.payStudent">
       <End Role="pay" EntitySet="pay" />
-      <End Role="Student" EntitySet="Student" />
+      <End Role="Student" EntitySet="StudentFile" />
     </AssociationSet>
     <AssociationSet Name="ClassManagementStudent" Association="DataModel.Store.ClassManagementStudent">
       <End Role="ClassManagement" EntitySet="ClassManagement" />
-      <End Role="Student" EntitySet="Student" />
+      <End Role="Student" EntitySet="StudentFile" />
     </AssociationSet>
     <AssociationSet Name="educationStudent" Association="DataModel.Store.educationStudent">
       <End Role="education" EntitySet="education" />
-      <End Role="Student" EntitySet="Student" />
+      <End Role="Student" EntitySet="StudentFile" />
     </AssociationSet>
     <AssociationSet Name="ConsultDepartment" Association="DataModel.Store.ConsultDepartment">
       <End Role="Consult" EntitySet="Consult" />
@@ -107,7 +107,7 @@
       <End Role="ResultInfo" EntitySet="ResultInfo" />
     </AssociationSet>
     <AssociationSet Name="StudentFileResultInfo" Association="DataModel.Store.StudentFileResultInfo">
-      <End Role="StudentFile" EntitySet="Student" />
+      <End Role="StudentFile" EntitySet="StudentFile" />
       <End Role="ResultInfo" EntitySet="ResultInfo" />
     </AssociationSet>
     <AssociationSet Name="UserSalaryInfo" Association="DataModel.Store.UserSalaryInfo">
@@ -193,6 +193,7 @@
     <Property Name="Identification" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
     <Property Name="PostInfoId" Type="int" Nullable="false" />
+    <Property Name="Sex" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
   <EntityType Name="Consult">
     <Key>
@@ -200,25 +201,25 @@
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="SourceId" Type="int" Nullable="false" />
-    <Property Name="remark" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="DelFlag" Type="smallint" Nullable="false" />
-    <Property Name="SubBy" Type="int" Nullable="false" />
-    <Property Name="subTiem" Type="datetime" Nullable="false" />
-    <Property Name="stuName" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="sex" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="phone" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="address" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="major" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="industry" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="basis" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="FavoriteIndusery" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="FavoriteJob" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="CurrentSchool" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="grade" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="hope" Type="bit" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="remark" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="DelFlag" Type="smallint" Nullable="true" />
+    <Property Name="SubBy" Type="int" Nullable="true" />
+    <Property Name="subTiem" Type="datetime" Nullable="true" />
+    <Property Name="stuName" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="sex" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="phone" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="address" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="major" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="industry" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="basis" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="FavoriteIndusery" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="FavoriteJob" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="CurrentSchool" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="grade" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="hope" Type="bit" StoreGeneratedPattern="Identity" Nullable="true" />
     <Property Name="DepartmentId" Type="int" Nullable="false" />
-    <Property Name="Statedoor" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="referrer" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Statedoor" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="referrer" Type="nvarchar(max)" Nullable="true" />
     <Property Name="education_Id" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="education">
@@ -252,7 +253,7 @@
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="SourceName" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
-  <EntityType Name="Student">
+  <EntityType Name="StudentFile">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
@@ -260,41 +261,41 @@
     <Property Name="payId" Type="int" Nullable="false" />
     <Property Name="ClassManagementId" Type="int" Nullable="false" />
     <Property Name="educationId" Type="int" Nullable="false" />
-    <Property Name="Registrationtime" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Namepinyin" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Sex" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Dateofbirth" Type="datetime" Nullable="false" />
-    <Property Name="Nation" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="IDnumber" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="IDaddress" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="XAddress" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="ISaccommodation" Type="bit" Nullable="false" />
-    <Property Name="PhoNumber" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Sourcesofcost" Type="float" Nullable="false" />
-    <Property Name="QQ" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Guardianname" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="GuardianPhone" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Wechat" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Interest" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Speciality" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="OWEP" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Other" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Programming" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Intrnet" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="correation" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="operation" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Readingstate" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="manage" Type="bit" Nullable="false" />
-    <Property Name="school" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="inclass" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="TimeGroad" Type="datetime" Nullable="false" />
-    <Property Name="recommend" Type="bit" Nullable="false" />
-    <Property Name="remark" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="DelFlag" Type="int" Nullable="false" />
-    <Property Name="SubBy" Type="int" Nullable="false" />
-    <Property Name="subTiem" Type="datetime" Nullable="false" />
-    <Property Name="entranceState" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Registrationtime" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Namepinyin" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Sex" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Dateofbirth" Type="datetime" Nullable="true" />
+    <Property Name="Nation" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="IDnumber" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="IDaddress" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="XAddress" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="ISaccommodation" Type="bit" Nullable="true" />
+    <Property Name="PhoNumber" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Sourcesofcost" Type="float" Nullable="true" />
+    <Property Name="QQ" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Guardianname" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="GuardianPhone" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Wechat" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Interest" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Speciality" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="OWEP" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Other" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Programming" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Intrnet" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="correation" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="operation" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Readingstate" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="manage" Type="bit" Nullable="true" />
+    <Property Name="school" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="inclass" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="TimeGroad" Type="datetime" Nullable="true" />
+    <Property Name="recommend" Type="bit" Nullable="true" />
+    <Property Name="remark" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="DelFlag" Type="int" Nullable="true" />
+    <Property Name="SubBy" Type="int" Nullable="true" />
+    <Property Name="subTiem" Type="datetime" Nullable="true" />
+    <Property Name="entranceState" Type="nvarchar(max)" Nullable="true" />
   </EntityType>
   <EntityType Name="ClassManagement">
     <Key>
@@ -439,7 +440,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="StudentFamily">
-    <End Role="Student" Type="DataModel.Store.Student" Multiplicity="1" />
+    <End Role="Student" Type="DataModel.Store.StudentFile" Multiplicity="1" />
     <End Role="Family" Type="DataModel.Store.Family" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Student">
@@ -452,7 +453,7 @@
   </Association>
   <Association Name="payStudent">
     <End Role="pay" Type="DataModel.Store.pay" Multiplicity="1" />
-    <End Role="Student" Type="DataModel.Store.Student" Multiplicity="*" />
+    <End Role="Student" Type="DataModel.Store.StudentFile" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="pay">
         <PropertyRef Name="Id" />
@@ -464,7 +465,7 @@
   </Association>
   <Association Name="ClassManagementStudent">
     <End Role="ClassManagement" Type="DataModel.Store.ClassManagement" Multiplicity="1" />
-    <End Role="Student" Type="DataModel.Store.Student" Multiplicity="*" />
+    <End Role="Student" Type="DataModel.Store.StudentFile" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="ClassManagement">
         <PropertyRef Name="Id" />
@@ -476,7 +477,7 @@
   </Association>
   <Association Name="educationStudent">
     <End Role="education" Type="DataModel.Store.education" Multiplicity="1" />
-    <End Role="Student" Type="DataModel.Store.Student" Multiplicity="*" />
+    <End Role="Student" Type="DataModel.Store.StudentFile" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="education">
         <PropertyRef Name="Id" />
@@ -523,7 +524,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="StudentFileResultInfo">
-    <End Role="StudentFile" Type="DataModel.Store.Student" Multiplicity="1" />
+    <End Role="StudentFile" Type="DataModel.Store.StudentFile" Multiplicity="1" />
     <End Role="ResultInfo" Type="DataModel.Store.ResultInfo" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="StudentFile">
@@ -725,7 +726,7 @@
           <EntitySet Name="Family" EntityType="DataModel.Family" />
           <EntitySet Name="pay" EntityType="DataModel.pay" />
           <EntitySet Name="Source" EntityType="DataModel.Source" />
-          <EntitySet Name="Student" EntityType="DataModel.StudentFile" />
+          <EntitySet Name="StudentFile" EntityType="DataModel.StudentFile" />
           <AssociationSet Name="Consulteducation" Association="DataModel.Consulteducation">
             <End Role="education" EntitySet="education" />
             <End Role="Consult" EntitySet="Consult" />
@@ -735,21 +736,21 @@
             <End Role="Consult" EntitySet="Consult" />
           </AssociationSet>
           <AssociationSet Name="StudentFamily" Association="DataModel.StudentFamily">
-            <End Role="Student" EntitySet="Student" />
+            <End Role="Student" EntitySet="StudentFile" />
             <End Role="Family" EntitySet="Family" />
           </AssociationSet>
           <AssociationSet Name="payStudent" Association="DataModel.payStudent">
             <End Role="pay" EntitySet="pay" />
-            <End Role="Student" EntitySet="Student" />
+            <End Role="Student" EntitySet="StudentFile" />
           </AssociationSet>
           <EntitySet Name="ClassManagement" EntityType="DataModel.ClassManagement" />
           <AssociationSet Name="ClassManagementStudent" Association="DataModel.ClassManagementStudent">
             <End Role="ClassManagement" EntitySet="ClassManagement" />
-            <End Role="Student" EntitySet="Student" />
+            <End Role="Student" EntitySet="StudentFile" />
           </AssociationSet>
           <AssociationSet Name="educationStudent" Association="DataModel.educationStudent">
             <End Role="education" EntitySet="education" />
-            <End Role="Student" EntitySet="Student" />
+            <End Role="Student" EntitySet="StudentFile" />
           </AssociationSet>
           <AssociationSet Name="ConsultDepartment" Association="DataModel.ConsultDepartment">
             <End Role="Consult" EntitySet="Consult" />
@@ -768,7 +769,7 @@
             <End Role="ResultInfo" EntitySet="ResultInfo" />
           </AssociationSet>
           <AssociationSet Name="StudentFileResultInfo" Association="DataModel.StudentFileResultInfo">
-            <End Role="StudentFile" EntitySet="Student" />
+            <End Role="StudentFile" EntitySet="StudentFile" />
             <End Role="ResultInfo" EntitySet="ResultInfo" />
           </AssociationSet>
           <EntitySet Name="AttendanceInfo" EntityType="DataModel.AttendanceInfo" />
@@ -883,6 +884,7 @@
           <NavigationProperty Name="PostInfo" Relationship="DataModel.PostInfoUser" FromRole="User" ToRole="PostInfo" />
           <Property Name="PostInfoId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="AttendanceInfo" Relationship="DataModel.UserAttendanceInfo" FromRole="User" ToRole="AttendanceInfo" />
+          <Property Name="Sex" Type="String" Nullable="false" />
         </EntityType>
         <Association Name="UserRole">
           <End Type="DataModel.User" Role="User" Multiplicity="*" />
@@ -900,26 +902,26 @@
           <NavigationProperty Name="education" Relationship="DataModel.Consulteducation" FromRole="Consult" ToRole="education" />
           <NavigationProperty Name="Source" Relationship="DataModel.SourceConsult" FromRole="Consult" ToRole="Source" />
           <Property Name="SourceId" Type="Int32" Nullable="false" />
-          <Property Name="remark" Type="String" Nullable="false" />
-          <Property Name="DelFlag" Type="Int16" Nullable="false" />
-          <Property Name="SubBy" Type="Int32" Nullable="false" />
-          <Property Name="subTiem" Type="DateTime" Nullable="false" />
-          <Property Name="stuName" Type="String" Nullable="false" />
-          <Property Name="sex" Type="String" Nullable="false" />
-          <Property Name="phone" Type="String" Nullable="false" />
-          <Property Name="address" Type="String" Nullable="false" />
-          <Property Name="major" Type="String" Nullable="false" />
-          <Property Name="industry" Type="String" Nullable="false" />
-          <Property Name="basis" Type="String" Nullable="false" />
-          <Property Name="FavoriteIndusery" Type="String" Nullable="false" />
-          <Property Name="FavoriteJob" Type="String" Nullable="false" />
-          <Property Name="CurrentSchool" Type="String" Nullable="false" />
-          <Property Name="grade" Type="String" Nullable="false" />
-          <Property Name="hope" Type="Boolean" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="remark" Type="String" Nullable="true" />
+          <Property Name="DelFlag" Type="Int16" Nullable="true" />
+          <Property Name="SubBy" Type="Int32" Nullable="true" />
+          <Property Name="subTiem" Type="DateTime" Nullable="true" />
+          <Property Name="stuName" Type="String" Nullable="true" />
+          <Property Name="sex" Type="String" Nullable="true" />
+          <Property Name="phone" Type="String" Nullable="true" />
+          <Property Name="address" Type="String" Nullable="true" />
+          <Property Name="major" Type="String" Nullable="true" />
+          <Property Name="industry" Type="String" Nullable="true" />
+          <Property Name="basis" Type="String" Nullable="true" />
+          <Property Name="FavoriteIndusery" Type="String" Nullable="true" />
+          <Property Name="FavoriteJob" Type="String" Nullable="true" />
+          <Property Name="CurrentSchool" Type="String" Nullable="true" />
+          <Property Name="grade" Type="String" Nullable="true" />
+          <Property Name="hope" Type="Boolean" Nullable="true" annotation:StoreGeneratedPattern="Identity" />
           <NavigationProperty Name="Department" Relationship="DataModel.ConsultDepartment" FromRole="Consult" ToRole="Department" />
           <Property Name="DepartmentId" Type="Int32" Nullable="false" />
-          <Property Name="Statedoor" Type="String" Nullable="false" />
-          <Property Name="referrer" Type="String" Nullable="false" />
+          <Property Name="Statedoor" Type="String" Nullable="true" />
+          <Property Name="referrer" Type="String" Nullable="true" />
         </EntityType>
         <EntityType Name="education">
           <Key>
@@ -969,41 +971,41 @@
           <Property Name="ClassManagementId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="education" Relationship="DataModel.educationStudent" FromRole="Student" ToRole="education" />
           <Property Name="educationId" Type="Int32" Nullable="false" />
-          <Property Name="Registrationtime" Type="String" Nullable="false" />
-          <Property Name="Name" Type="String" Nullable="false" />
-          <Property Name="Namepinyin" Type="String" Nullable="false" />
-          <Property Name="Sex" Type="String" Nullable="false" />
-          <Property Name="Dateofbirth" Type="DateTime" Nullable="false" />
-          <Property Name="Nation" Type="String" Nullable="false" />
-          <Property Name="IDnumber" Type="String" Nullable="false" />
-          <Property Name="IDaddress" Type="String" Nullable="false" />
-          <Property Name="XAddress" Type="String" Nullable="false" />
-          <Property Name="ISaccommodation" Type="Boolean" Nullable="false" />
-          <Property Name="PhoNumber" Type="String" Nullable="false" />
-          <Property Name="Sourcesofcost" Type="Double" Nullable="false" />
-          <Property Name="QQ" Type="String" Nullable="false" />
-          <Property Name="Guardianname" Type="String" Nullable="false" />
-          <Property Name="GuardianPhone" Type="String" Nullable="false" />
-          <Property Name="Wechat" Type="String" Nullable="false" />
-          <Property Name="Interest" Type="String" Nullable="false" />
-          <Property Name="Speciality" Type="String" Nullable="false" />
-          <Property Name="OWEP" Type="String" Nullable="false" />
-          <Property Name="Other" Type="String" Nullable="false" />
-          <Property Name="Programming" Type="String" Nullable="false" />
-          <Property Name="Intrnet" Type="String" Nullable="false" />
-          <Property Name="correation" Type="String" Nullable="false" />
-          <Property Name="operation" Type="String" Nullable="false" />
-          <Property Name="Readingstate" Type="String" Nullable="false" />
-          <Property Name="manage" Type="Boolean" Nullable="false" />
-          <Property Name="school" Type="String" Nullable="false" />
-          <Property Name="inclass" Type="String" Nullable="false" />
-          <Property Name="TimeGroad" Type="DateTime" Nullable="false" />
-          <Property Name="recommend" Type="Boolean" Nullable="false" />
-          <Property Name="remark" Type="String" Nullable="false" />
-          <Property Name="DelFlag" Type="Int32" Nullable="false" />
-          <Property Name="SubBy" Type="Int32" Nullable="false" />
-          <Property Name="subTiem" Type="DateTime" Nullable="false" />
-          <Property Name="entranceState" Type="String" Nullable="false" />
+          <Property Name="Registrationtime" Type="String" Nullable="true" />
+          <Property Name="Name" Type="String" Nullable="true" />
+          <Property Name="Namepinyin" Type="String" Nullable="true" />
+          <Property Name="Sex" Type="String" Nullable="true" />
+          <Property Name="Dateofbirth" Type="DateTime" Nullable="true" />
+          <Property Name="Nation" Type="String" Nullable="true" />
+          <Property Name="IDnumber" Type="String" Nullable="true" />
+          <Property Name="IDaddress" Type="String" Nullable="true" />
+          <Property Name="XAddress" Type="String" Nullable="true" />
+          <Property Name="ISaccommodation" Type="Boolean" Nullable="true" />
+          <Property Name="PhoNumber" Type="String" Nullable="true" />
+          <Property Name="Sourcesofcost" Type="Double" Nullable="true" />
+          <Property Name="QQ" Type="String" Nullable="true" />
+          <Property Name="Guardianname" Type="String" Nullable="true" />
+          <Property Name="GuardianPhone" Type="String" Nullable="true" />
+          <Property Name="Wechat" Type="String" Nullable="true" />
+          <Property Name="Interest" Type="String" Nullable="true" />
+          <Property Name="Speciality" Type="String" Nullable="true" />
+          <Property Name="OWEP" Type="String" Nullable="true" />
+          <Property Name="Other" Type="String" Nullable="true" />
+          <Property Name="Programming" Type="String" Nullable="true" />
+          <Property Name="Intrnet" Type="String" Nullable="true" />
+          <Property Name="correation" Type="String" Nullable="true" />
+          <Property Name="operation" Type="String" Nullable="true" />
+          <Property Name="Readingstate" Type="String" Nullable="true" />
+          <Property Name="manage" Type="Boolean" Nullable="true" />
+          <Property Name="school" Type="String" Nullable="true" />
+          <Property Name="inclass" Type="String" Nullable="true" />
+          <Property Name="TimeGroad" Type="DateTime" Nullable="true" />
+          <Property Name="recommend" Type="Boolean" Nullable="true" />
+          <Property Name="remark" Type="String" Nullable="true" />
+          <Property Name="DelFlag" Type="Int32" Nullable="true" />
+          <Property Name="SubBy" Type="Int32" Nullable="true" />
+          <Property Name="subTiem" Type="DateTime" Nullable="true" />
+          <Property Name="entranceState" Type="String" Nullable="true" />
           <NavigationProperty Name="ResultInfo" Relationship="DataModel.StudentFileResultInfo" FromRole="StudentFile" ToRole="ResultInfo" />
         </EntityType>
         <Association Name="Consulteducation">
@@ -1320,6 +1322,7 @@
           <ScalarProperty Name="Identification" ColumnName="Identification" />
           <ScalarProperty Name="Address" ColumnName="Address" />
           <ScalarProperty Name="PostInfoId" ColumnName="PostInfoId" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -1385,9 +1388,9 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Student">
+    <EntitySetMapping Name="StudentFile">
       <EntityTypeMapping TypeName="IsTypeOf(DataModel.StudentFile)">
-        <MappingFragment StoreEntitySet="Student">
+        <MappingFragment StoreEntitySet="StudentFile">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="payId" ColumnName="payId" />
           <ScalarProperty Name="ClassManagementId" ColumnName="ClassManagementId" />

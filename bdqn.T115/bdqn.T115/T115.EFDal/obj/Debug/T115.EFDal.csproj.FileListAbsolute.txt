@@ -68,3 +68,34 @@ E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\zh-Hans\EntityFramewo
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\obj\Debug\T115.EFDal.csprojResolveAssemblyReference.cache
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\obj\Debug\T115.EFDal.dll
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\obj\Debug\T115.EFDal.pdb
+<<<<<<< HEAD
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\T115.EFDal.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\T115.EFDal.pdb
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\dbqn.T115OA.Model.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\EntityFramework.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\T115.DbContextFactory.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\T115.IDal.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\dbqn.T115OA.Model.pdb
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\T115.DbContextFactory.pdb
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\T115.IDal.pdb
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\EntityFramework.xml
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\obj\Debug\T115.EFDal.csprojResolveAssemblyReference.cache
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\obj\Debug\T115.EFDal.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\obj\Debug\T115.EFDal.pdb
+=======
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\T115.EFDal.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\T115.EFDal.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\dbqn.T115OA.Model.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\EntityFramework.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\T115.DbContextFactory.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\T115.IDal.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\dbqn.T115OA.Model.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\T115.DbContextFactory.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\T115.IDal.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\EntityFramework.xml
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\obj\Debug\T115.EFDal.csprojResolveAssemblyReference.cache
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\obj\Debug\T115.EFDal.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.EFDal\obj\Debug\T115.EFDal.pdb
+>>>>>>> origin/master

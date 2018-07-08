@@ -48,3 +48,26 @@ E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\zh-Hans\EntityFramewor
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.csprojResolveAssemblyReference.cache
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.dll
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.pdb
+<<<<<<< HEAD
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.pdb
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.pdb
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.xml
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.csprojResolveAssemblyReference.cache
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.pdb
+=======
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.xml
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.csprojResolveAssemblyReference.cache
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.pdb
+>>>>>>> origin/master
