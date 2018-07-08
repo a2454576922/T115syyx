@@ -35,7 +35,7 @@ namespace dbqn.T115OA.Model
         public DbSet<Family> Family { get; set; }
         public DbSet<pay> pay { get; set; }
         public DbSet<Source> Source { get; set; }
-        public DbSet<StudentFile> Student { get; set; }
+        public DbSet<StudentFile> StudentFile { get; set; }
         public DbSet<ClassManagement> ClassManagement { get; set; }
         public DbSet<Result> Result { get; set; }
         public DbSet<ResultInfo> ResultInfo { get; set; }

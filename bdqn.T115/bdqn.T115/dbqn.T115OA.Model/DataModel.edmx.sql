@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/08/2018 08:52:45
+-- Date Created: 07/08/2018 08:54:45
 -- Generated from EDMX file: F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\DataModel.edmx
 -- --------------------------------------------------
 
@@ -297,8 +297,8 @@ CREATE TABLE [dbo].[Source] (
 );
 GO
 
--- Creating table 'Student'
-CREATE TABLE [dbo].[Student] (
+-- Creating table 'StudentFile'
+CREATE TABLE [dbo].[StudentFile] (
     [Id] int IDENTITY(1,1) NOT NULL,
     [payId] int  NOT NULL,
     [ClassManagementId] int  NOT NULL,
@@ -518,9 +518,9 @@ ADD CONSTRAINT [PK_Source]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
--- Creating primary key on [Id] in table 'Student'
-ALTER TABLE [dbo].[Student]
-ADD CONSTRAINT [PK_Student]
+-- Creating primary key on [Id] in table 'StudentFile'
+ALTER TABLE [dbo].[StudentFile]
+ADD CONSTRAINT [PK_StudentFile]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
@@ -753,7 +753,7 @@ GO
 ALTER TABLE [dbo].[Family]
 ADD CONSTRAINT [FK_StudentFamily]
     FOREIGN KEY ([StudentId])
-    REFERENCES [dbo].[Student]
+    REFERENCES [dbo].[StudentFile]
         ([Id])
     ON DELETE NO ACTION ON UPDATE NO ACTION;
 
@@ -763,8 +763,8 @@ ON [dbo].[Family]
     ([StudentId]);
 GO
 
--- Creating foreign key on [payId] in table 'Student'
-ALTER TABLE [dbo].[Student]
+-- Creating foreign key on [payId] in table 'StudentFile'
+ALTER TABLE [dbo].[StudentFile]
 ADD CONSTRAINT [FK_payStudent]
     FOREIGN KEY ([payId])
     REFERENCES [dbo].[pay]
@@ -773,12 +773,12 @@ ADD CONSTRAINT [FK_payStudent]
 
 -- Creating non-clustered index for FOREIGN KEY 'FK_payStudent'
 CREATE INDEX [IX_FK_payStudent]
-ON [dbo].[Student]
+ON [dbo].[StudentFile]
     ([payId]);
 GO
 
--- Creating foreign key on [ClassManagementId] in table 'Student'
-ALTER TABLE [dbo].[Student]
+-- Creating foreign key on [ClassManagementId] in table 'StudentFile'
+ALTER TABLE [dbo].[StudentFile]
 ADD CONSTRAINT [FK_ClassManagementStudent]
     FOREIGN KEY ([ClassManagementId])
     REFERENCES [dbo].[ClassManagement]
@@ -787,12 +787,12 @@ ADD CONSTRAINT [FK_ClassManagementStudent]
 
 -- Creating non-clustered index for FOREIGN KEY 'FK_ClassManagementStudent'
 CREATE INDEX [IX_FK_ClassManagementStudent]
-ON [dbo].[Student]
+ON [dbo].[StudentFile]
     ([ClassManagementId]);
 GO
 
--- Creating foreign key on [educationId] in table 'Student'
-ALTER TABLE [dbo].[Student]
+-- Creating foreign key on [educationId] in table 'StudentFile'
+ALTER TABLE [dbo].[StudentFile]
 ADD CONSTRAINT [FK_educationStudent]
     FOREIGN KEY ([educationId])
     REFERENCES [dbo].[education]
@@ -801,7 +801,7 @@ ADD CONSTRAINT [FK_educationStudent]
 
 -- Creating non-clustered index for FOREIGN KEY 'FK_educationStudent'
 CREATE INDEX [IX_FK_educationStudent]
-ON [dbo].[Student]
+ON [dbo].[StudentFile]
     ([educationId]);
 GO
 
@@ -851,7 +851,7 @@ GO
 ALTER TABLE [dbo].[ResultInfo]
 ADD CONSTRAINT [FK_StudentFileResultInfo]
     FOREIGN KEY ([StudentFileId])
-    REFERENCES [dbo].[Student]
+    REFERENCES [dbo].[StudentFile]
         ([Id])
     ON DELETE NO ACTION ON UPDATE NO ACTION;
 
