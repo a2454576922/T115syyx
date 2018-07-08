@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace bdqn.webApp.Controllers
 {
+    using dbqn.T115OA.Model;
     public class StudentarchivesController : Controller
     {
         //
@@ -17,6 +18,11 @@ namespace bdqn.webApp.Controllers
         }
 
         public ActionResult Add()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Add(StudentFile s)
         {
             return View();
         }

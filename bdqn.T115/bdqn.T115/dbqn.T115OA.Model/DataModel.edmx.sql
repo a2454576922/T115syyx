@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/07/2018 15:28:16
--- Generated from EDMX file: E:\115C#\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\DataModel.edmx
+-- Date Created: 07/08/2018 08:52:45
+-- Generated from EDMX file: F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\DataModel.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -77,6 +77,15 @@ GO
 IF OBJECT_ID(N'[dbo].[FK_StudentFileResultInfo]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[ResultInfo] DROP CONSTRAINT [FK_StudentFileResultInfo];
 GO
+IF OBJECT_ID(N'[dbo].[FK_UserSalaryInfo]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[SalaryInfo] DROP CONSTRAINT [FK_UserSalaryInfo];
+GO
+IF OBJECT_ID(N'[dbo].[FK_PostInfoUser]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[User] DROP CONSTRAINT [FK_PostInfoUser];
+GO
+IF OBJECT_ID(N'[dbo].[FK_UserAttendanceInfo]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[AttendanceInfo] DROP CONSTRAINT [FK_UserAttendanceInfo];
+GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
@@ -129,6 +138,15 @@ IF OBJECT_ID(N'[dbo].[Subject]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[Grade]', 'U') IS NOT NULL
     DROP TABLE [dbo].[Grade];
+GO
+IF OBJECT_ID(N'[dbo].[AttendanceInfo]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[AttendanceInfo];
+GO
+IF OBJECT_ID(N'[dbo].[SalaryInfo]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[SalaryInfo];
+GO
+IF OBJECT_ID(N'[dbo].[PostInfo]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[PostInfo];
 GO
 IF OBJECT_ID(N'[dbo].[DepartmentActionInfo]', 'U') IS NOT NULL
     DROP TABLE [dbo].[DepartmentActionInfo];
@@ -225,25 +243,25 @@ GO
 CREATE TABLE [dbo].[Consult] (
     [Id] int IDENTITY(1,1) NOT NULL,
     [SourceId] int  NOT NULL,
-    [remark] nvarchar(max)  NOT NULL,
-    [DelFlag] smallint  NOT NULL,
-    [SubBy] int  NOT NULL,
-    [subTiem] datetime  NOT NULL,
-    [stuName] nvarchar(max)  NOT NULL,
-    [sex] nvarchar(max)  NOT NULL,
-    [phone] nvarchar(max)  NOT NULL,
-    [address] nvarchar(max)  NOT NULL,
-    [major] nvarchar(max)  NOT NULL,
-    [industry] nvarchar(max)  NOT NULL,
-    [basis] nvarchar(max)  NOT NULL,
-    [FavoriteIndusery] nvarchar(max)  NOT NULL,
-    [FavoriteJob] nvarchar(max)  NOT NULL,
-    [CurrentSchool] nvarchar(max)  NOT NULL,
-    [grade] nvarchar(max)  NOT NULL,
-    [hope] bit  NOT NULL,
+    [remark] nvarchar(max)  NULL,
+    [DelFlag] smallint  NULL,
+    [SubBy] int  NULL,
+    [subTiem] datetime  NULL,
+    [stuName] nvarchar(max)  NULL,
+    [sex] nvarchar(max)  NULL,
+    [phone] nvarchar(max)  NULL,
+    [address] nvarchar(max)  NULL,
+    [major] nvarchar(max)  NULL,
+    [industry] nvarchar(max)  NULL,
+    [basis] nvarchar(max)  NULL,
+    [FavoriteIndusery] nvarchar(max)  NULL,
+    [FavoriteJob] nvarchar(max)  NULL,
+    [CurrentSchool] nvarchar(max)  NULL,
+    [grade] nvarchar(max)  NULL,
+    [hope] bit  NULL,
     [DepartmentId] int  NOT NULL,
-    [Statedoor] nvarchar(max)  NOT NULL,
-    [referrer] nvarchar(max)  NOT NULL,
+    [Statedoor] nvarchar(max)  NULL,
+    [referrer] nvarchar(max)  NULL,
     [education_Id] int  NOT NULL
 );
 GO
@@ -285,41 +303,41 @@ CREATE TABLE [dbo].[Student] (
     [payId] int  NOT NULL,
     [ClassManagementId] int  NOT NULL,
     [educationId] int  NOT NULL,
-    [Registrationtime] nvarchar(max)  NOT NULL,
-    [Name] nvarchar(max)  NOT NULL,
-    [Namepinyin] nvarchar(max)  NOT NULL,
-    [Sex] nvarchar(max)  NOT NULL,
-    [Dateofbirth] datetime  NOT NULL,
-    [Nation] nvarchar(max)  NOT NULL,
-    [IDnumber] nvarchar(max)  NOT NULL,
-    [IDaddress] nvarchar(max)  NOT NULL,
-    [XAddress] nvarchar(max)  NOT NULL,
-    [ISaccommodation] bit  NOT NULL,
-    [PhoNumber] nvarchar(max)  NOT NULL,
-    [Sourcesofcost] float  NOT NULL,
-    [QQ] nvarchar(max)  NOT NULL,
-    [Guardianname] nvarchar(max)  NOT NULL,
-    [GuardianPhone] nvarchar(max)  NOT NULL,
-    [Wechat] nvarchar(max)  NOT NULL,
-    [Interest] nvarchar(max)  NOT NULL,
-    [Speciality] nvarchar(max)  NOT NULL,
-    [OWEP] nvarchar(max)  NOT NULL,
-    [Other] nvarchar(max)  NOT NULL,
-    [Programming] nvarchar(max)  NOT NULL,
-    [Intrnet] nvarchar(max)  NOT NULL,
-    [correation] nvarchar(max)  NOT NULL,
-    [operation] nvarchar(max)  NOT NULL,
-    [Readingstate] nvarchar(max)  NOT NULL,
-    [manage] bit  NOT NULL,
-    [school] nvarchar(max)  NOT NULL,
-    [inclass] nvarchar(max)  NOT NULL,
-    [TimeGroad] datetime  NOT NULL,
-    [recommend] bit  NOT NULL,
-    [remark] nvarchar(max)  NOT NULL,
-    [DelFlag] int  NOT NULL,
-    [SubBy] int  NOT NULL,
-    [subTiem] datetime  NOT NULL,
-    [entranceState] nvarchar(max)  NOT NULL
+    [Registrationtime] nvarchar(max)  NULL,
+    [Name] nvarchar(max)  NULL,
+    [Namepinyin] nvarchar(max)  NULL,
+    [Sex] nvarchar(max)  NULL,
+    [Dateofbirth] datetime  NULL,
+    [Nation] nvarchar(max)  NULL,
+    [IDnumber] nvarchar(max)  NULL,
+    [IDaddress] nvarchar(max)  NULL,
+    [XAddress] nvarchar(max)  NULL,
+    [ISaccommodation] bit  NULL,
+    [PhoNumber] nvarchar(max)  NULL,
+    [Sourcesofcost] float  NULL,
+    [QQ] nvarchar(max)  NULL,
+    [Guardianname] nvarchar(max)  NULL,
+    [GuardianPhone] nvarchar(max)  NULL,
+    [Wechat] nvarchar(max)  NULL,
+    [Interest] nvarchar(max)  NULL,
+    [Speciality] nvarchar(max)  NULL,
+    [OWEP] nvarchar(max)  NULL,
+    [Other] nvarchar(max)  NULL,
+    [Programming] nvarchar(max)  NULL,
+    [Intrnet] nvarchar(max)  NULL,
+    [correation] nvarchar(max)  NULL,
+    [operation] nvarchar(max)  NULL,
+    [Readingstate] nvarchar(max)  NULL,
+    [manage] bit  NULL,
+    [school] nvarchar(max)  NULL,
+    [inclass] nvarchar(max)  NULL,
+    [TimeGroad] datetime  NULL,
+    [recommend] bit  NULL,
+    [remark] nvarchar(max)  NULL,
+    [DelFlag] int  NULL,
+    [SubBy] int  NULL,
+    [subTiem] datetime  NULL,
+    [entranceState] nvarchar(max)  NULL
 );
 GO
 

@@ -17,9 +17,9 @@ namespace dbqn.T115OA.Model
         public int Id { get; set; }
         public int SourceId { get; set; }
         public string remark { get; set; }
-        public short DelFlag { get; set; }
-        public int SubBy { get; set; }
-        public System.DateTime subTiem { get; set; }
+        public Nullable<short> DelFlag { get; set; }
+        public Nullable<int> SubBy { get; set; }
+        public Nullable<System.DateTime> subTiem { get; set; }
         public string stuName { get; set; }
         public string sex { get; set; }
         public string phone { get; set; }
@@ -31,7 +31,7 @@ namespace dbqn.T115OA.Model
         public string FavoriteJob { get; set; }
         public string CurrentSchool { get; set; }
         public string grade { get; set; }
-        public bool hope { get; set; }
+        public Nullable<bool> hope { get; set; }
         public int DepartmentId { get; set; }
         public string Statedoor { get; set; }
         public string referrer { get; set; }
