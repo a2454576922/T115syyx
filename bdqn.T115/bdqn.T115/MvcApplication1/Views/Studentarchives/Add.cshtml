@@ -42,16 +42,16 @@
                 <div class="layui-inline">
                     <label class="layui-form-label">姓名</label>
                     <div class="layui-input-block">
-                        @Html.EditorFor(model => model.Name, new {@class="layui-input userName",placeholder="请输入姓名" })
+                        @Html.TextBoxFor(model => model.Name, new {@class="layui-input userName",placeholder="请输入姓名" ,value="aaa"})
                         @Html.ValidationMessageFor(model => model.Name)
                         @*<input type="text" class="layui-input userName"  plWaceholder="请输入姓名">*@
                     </div>
-                </div>
+                </div>                                                                                                     
 
                 <div class="layui-inline">
                     <label class="layui-form-label">姓名拼音</label>
                     <div class="layui-input-block">
-                        <input type="text" class="layui-input" placeholder="请输入姓名拼音">
+                        <input type="text" class="layui-input"  placeholder="请输入姓名拼音">
                     </div>
                 </div>
             </div>
