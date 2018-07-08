@@ -35,6 +35,7 @@ namespace dbqn.T115OA.Model
         public string Identification { get; set; }
         public string Address { get; set; }
         public int PostInfoId { get; set; }
+        public string Sex { get; set; }
     
         public virtual ICollection<Role> Role { get; set; }
         public virtual ICollection<ActionInfo> ActionInfo { get; set; }

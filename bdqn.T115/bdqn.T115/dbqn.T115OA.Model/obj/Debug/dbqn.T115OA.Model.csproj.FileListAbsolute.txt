@@ -40,6 +40,17 @@ E:\115C#\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\bin\Debug\zh-Hans\Entity
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.dll
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.pdb
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\bin\Debug\dbqn.T115OA.Model.dll.config
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\bin\Debug\dbqn.T115OA.Model.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\bin\Debug\dbqn.T115OA.Model.pdb
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\bin\Debug\EntityFramework.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\bin\Debug\EntityFramework.xml
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.csprojResolveAssemblyReference.cache
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.pdb
+=======
 F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\bin\Debug\dbqn.T115OA.Model.dll.config
 F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\bin\Debug\dbqn.T115OA.Model.dll
 F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\bin\Debug\dbqn.T115OA.Model.pdb
@@ -49,3 +60,4 @@ F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\bin\Debug\zh-Hans\Ent
 F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.csprojResolveAssemblyReference.cache
 F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.dll
 F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\obj\Debug\dbqn.T115OA.Model.pdb
+>>>>>>> origin/master

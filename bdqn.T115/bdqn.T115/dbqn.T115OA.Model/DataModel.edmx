@@ -193,6 +193,7 @@
     <Property Name="Identification" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
     <Property Name="PostInfoId" Type="int" Nullable="false" />
+    <Property Name="Sex" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
   <EntityType Name="Consult">
     <Key>
@@ -883,6 +884,7 @@
           <NavigationProperty Name="PostInfo" Relationship="DataModel.PostInfoUser" FromRole="User" ToRole="PostInfo" />
           <Property Name="PostInfoId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="AttendanceInfo" Relationship="DataModel.UserAttendanceInfo" FromRole="User" ToRole="AttendanceInfo" />
+          <Property Name="Sex" Type="String" Nullable="false" />
         </EntityType>
         <Association Name="UserRole">
           <End Type="DataModel.User" Role="User" Multiplicity="*" />
@@ -1320,6 +1322,7 @@
           <ScalarProperty Name="Identification" ColumnName="Identification" />
           <ScalarProperty Name="Address" ColumnName="Address" />
           <ScalarProperty Name="PostInfoId" ColumnName="PostInfoId" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

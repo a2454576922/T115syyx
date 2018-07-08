@@ -42,9 +42,9 @@
                 <div class="layui-inline">
                     <label class="layui-form-label">姓名</label>
                     <div class="layui-input-block">
-                        @Html.EditorFor(model => model.Name, new { @Class = "layui-input userName" ,placeholder="请输入姓名" })
+                        @Html.EditorFor(model => model.Name, new {@class="layui-input userName",placeholder="请输入姓名" })
                         @Html.ValidationMessageFor(model => model.Name)
-                        @*<input type="text" class="layui-input userName"  placeholder="请输入姓名">*@
+                        @*<input type="text" class="layui-input userName"  plWaceholder="请输入姓名">*@
                     </div>
                 </div>
 
