@@ -48,3 +48,13 @@ E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\zh-Hans\EntityFramewor
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.csprojResolveAssemblyReference.cache
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.dll
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.pdb
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\T115.IBll.pdb
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\dbqn.T115OA.Model.pdb
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\EntityFramework.xml
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.csprojResolveAssemblyReference.cache
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.dll
+D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\T115.IBll\obj\Debug\T115.IBll.pdb

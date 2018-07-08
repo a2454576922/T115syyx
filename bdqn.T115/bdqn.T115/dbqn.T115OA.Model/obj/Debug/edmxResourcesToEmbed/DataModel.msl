@@ -74,6 +74,7 @@
           <ScalarProperty Name="Identification" ColumnName="Identification" />
           <ScalarProperty Name="Address" ColumnName="Address" />
           <ScalarProperty Name="PostInfoId" ColumnName="PostInfoId" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

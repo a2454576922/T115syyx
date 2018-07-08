@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/07/2018 15:28:16
--- Generated from EDMX file: E:\115C#\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\DataModel.edmx
+-- Date Created: 07/08/2018 08:14:21
+-- Generated from EDMX file: D:\bdqnT115OA\T115syyx\bdqn.T115\bdqn.T115\dbqn.T115OA.Model\DataModel.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -77,6 +77,15 @@ GO
 IF OBJECT_ID(N'[dbo].[FK_StudentFileResultInfo]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[ResultInfo] DROP CONSTRAINT [FK_StudentFileResultInfo];
 GO
+IF OBJECT_ID(N'[dbo].[FK_UserSalaryInfo]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[SalaryInfo] DROP CONSTRAINT [FK_UserSalaryInfo];
+GO
+IF OBJECT_ID(N'[dbo].[FK_PostInfoUser]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[User] DROP CONSTRAINT [FK_PostInfoUser];
+GO
+IF OBJECT_ID(N'[dbo].[FK_UserAttendanceInfo]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[AttendanceInfo] DROP CONSTRAINT [FK_UserAttendanceInfo];
+GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
@@ -129,6 +138,15 @@ IF OBJECT_ID(N'[dbo].[Subject]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[Grade]', 'U') IS NOT NULL
     DROP TABLE [dbo].[Grade];
+GO
+IF OBJECT_ID(N'[dbo].[AttendanceInfo]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[AttendanceInfo];
+GO
+IF OBJECT_ID(N'[dbo].[SalaryInfo]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[SalaryInfo];
+GO
+IF OBJECT_ID(N'[dbo].[PostInfo]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[PostInfo];
 GO
 IF OBJECT_ID(N'[dbo].[DepartmentActionInfo]', 'U') IS NOT NULL
     DROP TABLE [dbo].[DepartmentActionInfo];
@@ -217,7 +235,8 @@ CREATE TABLE [dbo].[User] (
     [DepartmentId] int  NOT NULL,
     [Identification] nvarchar(max)  NOT NULL,
     [Address] nvarchar(max)  NOT NULL,
-    [PostInfoId] int  NOT NULL
+    [PostInfoId] int  NOT NULL,
+    [Sex] nvarchar(max)  NOT NULL
 );
 GO
 

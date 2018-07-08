@@ -26,7 +26,7 @@ namespace bdqn.webApp.Controllers
         {
             string userName = Request["UserName"];
             string password = Request["Password"];
-            var user = ubll.LoadEntities(p=>p.UserName==userName && p.Password==password);
+            var user = ubll.LoadEntities(p=>p.UserName==userName && p.Password==password).FirstOrDefault();
             if(user == null){
                 return Content("err");
             }

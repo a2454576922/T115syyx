@@ -188,6 +188,7 @@
     <Property Name="Identification" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
     <Property Name="PostInfoId" Type="int" Nullable="false" />
+    <Property Name="Sex" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
   <EntityType Name="Consult">
     <Key>
