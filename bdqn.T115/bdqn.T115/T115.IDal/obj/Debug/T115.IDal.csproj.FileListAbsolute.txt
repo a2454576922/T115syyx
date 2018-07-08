@@ -48,3 +48,13 @@ E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\bin\Debug\zh-Hans\EntityFramewor
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\obj\Debug\T115.IDal.csprojResolveAssemblyReference.cache
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\obj\Debug\T115.IDal.dll
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\obj\Debug\T115.IDal.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\bin\Debug\T115.IDal.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\bin\Debug\T115.IDal.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\bin\Debug\dbqn.T115OA.Model.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\bin\Debug\EntityFramework.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\bin\Debug\dbqn.T115OA.Model.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\bin\Debug\EntityFramework.xml
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\obj\Debug\T115.IDal.csprojResolveAssemblyReference.cache
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\obj\Debug\T115.IDal.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.IDal\obj\Debug\T115.IDal.pdb

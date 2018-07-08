@@ -48,3 +48,13 @@ E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\zh-Hans\En
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.csprojResolveAssemblyReference.cache
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.dll
 E:\115C#\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\T115.DbContextFactory.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\T115.DbContextFactory.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\dbqn.T115OA.Model.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\EntityFramework.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\dbqn.T115OA.Model.pdb
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\EntityFramework.xml
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.csprojResolveAssemblyReference.cache
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.dll
+F:\Y2项目\T115syyx\bdqn.T115\bdqn.T115\T115.DbContextFactory\obj\Debug\T115.DbContextFactory.pdb
