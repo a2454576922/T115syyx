@@ -38,5 +38,15 @@ namespace bdqn.webApp.Controllers
             //string url = actionurl.Url;
             return Content("OK");
         }
+
+        public ActionResult EmployeeList()
+        {
+            return View();
+        }
+
+        public ActionResult AddEmployeeList() 
+        {
+            return View();
+        }
     }
 }

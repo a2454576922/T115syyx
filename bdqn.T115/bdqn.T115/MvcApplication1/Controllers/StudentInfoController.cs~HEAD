@@ -6,17 +6,15 @@ using System.Web.Mvc;
 
 namespace bdqn.webApp.Controllers
 {
-    public class SalaryController : Controller
+    public class StudentInfoController : Controller
     {
         //
-        // GET: /Salary/
+        // GET: /StudentInfo/
 
-        public ActionResult SalaryList()
+        public ActionResult Index()
         {
             return View();
         }
-
-       
 
     }
 }
